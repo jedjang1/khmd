@@ -1,0 +1,132 @@
+{
+  "schema": "KHMD_CONSTRUCTION_INPUTS_V2",
+  "scope": "EXTERNAL",
+  "stage": "busan_finish",
+  "parameters": {
+    "address_keys": 5120,
+    "input_cells": 30,
+    "input_occurrences": 1327806
+  },
+  "inputs": [
+    {
+      "role": "spatial",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "candidates",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "candidate_input",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "candidate_manifest",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "candidate_publication",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "candidate_completion",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "geometry_completion",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "geometry_config",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "grid_policy",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "policy_completion",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "regression_completion",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "demand",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    }
+  ]
+}

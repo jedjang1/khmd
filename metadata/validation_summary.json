@@ -1,0 +1,70 @@
+{
+  "package": "khmd",
+  "version": "0.0.5",
+  "status": "SOURCE_AND_BINARY_VALIDATED_LOCAL_ONLY",
+  "check": {
+    "status": "OK",
+    "ERROR": 0,
+    "WARNING": 0,
+    "NOTE": 0,
+    "exit": 0,
+    "options": [
+      "--no-manual",
+      "--no-build-vignettes"
+    ],
+    "check_resource_scope": "Outside single-worker guard; memory of full check tree not measured",
+    "completed_utc": "2026-10-28T16:41:54.2510319+00:00"
+  },
+  "environment": "same PC, Windows11 x64 build26200, R4.5.2 UCRT; not another OS/CRAN",
+  "source_tar_sha256": "0210790dbdc8d6b7f01ef1f2413cd1686b567c222f4f910d6ca77a1150d2f522",
+  "windows_zip_sha256": "6c69ad8e57d7df52840c07f7890df4295914c200461ac61734c95cfe9b00dd10",
+  "evidence": [
+    {
+      "id": "check_status",
+      "sha256": "f79deddda6c8fa219620d981e9db6c906705fc82bbd7be1c61a9fadf391e73b3"
+    },
+    {
+      "id": "check_log",
+      "sha256": "0caac76eb0e690a11391288ed17f8698ab9a5f02d7dfc4726a0025cde5686b4e"
+    },
+    {
+      "id": "check_preflight",
+      "sha256": "ec18ddb09d31ccb5ef8b9097e00f7319a6c15f774cea91c5f60e577856ba1310"
+    },
+    {
+      "id": "source_build_install",
+      "sha256": "78acc4f55234f1d2c44dc3912040a77037a7eb5c3b30e0a83e7c91511a378442"
+    },
+    {
+      "id": "source_query",
+      "sha256": "a2b164afabe68bcba1a9ff0d724432dca99329bd59ff095f12b47baf4c8e3284"
+    },
+    {
+      "id": "source_query_resource",
+      "sha256": "0098703d0111df1481efa8cb29ada8991c9f33ce513389ca24ab9b7fbb3ddc50"
+    },
+    {
+      "id": "binary_install",
+      "sha256": "b87496d0f1fedf1d6aa6ba9edbfc7cad9389de183d5fa7de77fd37506057cb3e"
+    },
+    {
+      "id": "binary_install_resource",
+      "sha256": "797c4655b6f0be69be8c46e02da824ea5c5323ba15c633800af051c64a2f3d9b"
+    },
+    {
+      "id": "binary_query",
+      "sha256": "3f933f4f511f0d66036bf014b5a968a0092fc503c32171d6aadba11ed3e729b9"
+    },
+    {
+      "id": "binary_query_resource",
+      "sha256": "6869918cc5801569ab125f1c2d0334ef1db0d77098341874621ee15d8c2d9033"
+    },
+    {
+      "id": "archive_provenance",
+      "sha256": "5258bac2df3365e87b89d98ce8bdc4c1d01deaafd9eaf21955048ad3326849f6"
+    }
+  ],
+  "evidence_locator": "metadata/validation_evidence.json (summary and historic evidence hashes; original logs excluded)",
+  "relocation_scope": "metadata/publication_validation.json: this public staging relocation only",
+  "windows_binary_in_this_candidate": false
+}

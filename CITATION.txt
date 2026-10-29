@@ -1,0 +1,3 @@
+Jang, Jinhyeok (2026). khmd: External Housing Observation and Descriptive Panel Readers.
+R package 0.0.5, unpublished local candidate. Author/maintainer: jedjang1@gmail.com.
+No DOI/repository/affiliation/ORCID asserted. See DATA_SOURCES.txt for separate data attribution.

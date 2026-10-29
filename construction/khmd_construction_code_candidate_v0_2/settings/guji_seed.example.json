@@ -1,0 +1,114 @@
+{
+  "schema": "KHMD_CONSTRUCTION_INPUTS_V2",
+  "scope": "EXTERNAL",
+  "stage": "guji_seed",
+  "parameters": {
+    "baseline_keys": 47676,
+    "baseline_occurrences": 20916100,
+    "guji_occurrences": 8629,
+    "regions": null,
+    "reference_date": "2026-09-08"
+  },
+  "inputs": [
+    {
+      "role": "baseline_manifest",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "baseline_database",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "busan_spatial",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "region_manifest:부산광역시",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "region:대구광역시",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "region_manifest:대구광역시",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "demand",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "mapping",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "legal_codes",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": "2026-09-30",
+      "acquisition_time_status": null
+    },
+    {
+      "role": "official_change",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": "2026-09-30",
+      "acquisition_time_status": null
+    }
+  ]
+}

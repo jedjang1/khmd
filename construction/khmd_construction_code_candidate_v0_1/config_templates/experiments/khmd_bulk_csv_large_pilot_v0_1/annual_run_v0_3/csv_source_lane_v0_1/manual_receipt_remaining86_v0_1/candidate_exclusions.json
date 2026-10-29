@@ -1,0 +1,25 @@
+[
+  {
+    "cell_id": "CSV-SALE-2024-48000",
+    "sha256": "7f0410846fe4fb37ebc4c1b3a4b7c94441262d706737436f7c374f8ca9dbc6ea",
+    "source_path": "${KHMD_EXTERNAL_321F911D41}",
+    "reason": "PROVEN_MIXED_CONTENT_NOT_A_VALID_ANNUAL_SNAPSHOT",
+    "authority": "Current user instruction explicitly excludes this exact SHA from receipt candidates",
+    "scope": "Only this SHA and this cell; no deletion, no trimming, no cell-wide exclusion",
+    "original_preserved": true,
+    "review": [
+      {
+        "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/gyeongnam_2024_sale_review_v0_1/REPORT.txt",
+        "sha256": "ffb93a1a750fa188e534b1540404aed8e03d1b1654e1f0f9f230cc35fa9982a6"
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/gyeongnam_2024_sale_review_v0_1/inspection.json",
+        "sha256": "7b2241c9d4da832f71b126cf46c0d4f05d4efba0a8e532ef855d1a062fe169d5"
+      },
+      {
+        "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/gyeongnam_2024_sale_review_v0_1/final_receipt.json",
+        "sha256": "cf429bdd2f96c3a6efff44e5a42977d18259a8b01b55871977fd18f8e696ef00"
+      }
+    ]
+  }
+]

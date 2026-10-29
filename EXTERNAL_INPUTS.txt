@@ -1,0 +1,12 @@
+No external source inputs are included or newly validated here.
+Read construction/khmd_construction_code_candidate_v0_2/INPUT_CONTRACTS.txt and
+construction/khmd_construction_code_candidate_v0_1/INPUT_CONTRACTS.csv.
+The aggregate reader needs data/count, data/price, data/provenance and their manifests.
+Reconstruction additionally needs source CSVs, normalized per-file stores/registry,
+legal master and historical mappings, NA:23 DBF/SHP/SHX/PRJ/CPG with actual source CRS,
+indices/cache/locator manifests, genuine completed predecessor evidence, official
+Guji code/change texts, and the explicit local spatial runtime/dependency manifests.
+These are user-supplied files; no downloader/API keys are provided. Existing historic
+templates contain unresolved external placeholders and old evidentiary hashes;
+binding new bytes creates new hashes and does not inherit a past successful status.
+No new national reproduction was run and no generalized construction driver is claimed.

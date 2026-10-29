@@ -1,0 +1,292 @@
+{
+  "schema": "MANUAL_RECEIPT_REMAINING86_V1",
+  "scope_count": 86,
+  "baseline_release": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/runs/selection_20261027T133023_171194Z/analysis_release_manifest.json",
+  "baseline_plan": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/download_policy_v0_3/national_download_manifest.json",
+  "baseline_registry": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/runs/selection_20261027T133023_171194Z/registry_index.json",
+  "baseline_receipt_sha256": "855dd51c0b035f791cd17b324def1c1309289722b1a9fd8d32be84b610d034ee",
+  "downloads": "${KHMD_DOWNLOADS}",
+  "python": "${KHMD_EXTERNAL_46097C336B}",
+  "rscript": "${KHMD_EXTERNAL_BB932EA6DE}",
+  "r_library": "${PROJECT_ROOT}/experiments/khmd_r_csv_release_v0_2/check_tools/user_run_20261027_171318_556/library",
+  "pins": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/receipt_gyeonggi_2023_rent_v0_1/final_receipt.json",
+      "sha256": "7d76e200ccb876f83d8bac9008b4f99578d2394d725bd444421877d31b01c74a"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/receipt_gyeonggi_2023_rent_v0_1/analysis_release_manifest.json",
+      "sha256": "00fba29f5d37e1bc7c9d670319334db61b698661a4f2a545eadc14092616bec6"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/receipt_gyeonggi_2023_rent_v0_1/national_cell_status.json",
+      "sha256": "57f55bef3157f5704d6ed9d4101c68899f2c6c6ab7bc2836d498e6f01bf8db30"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/config.json",
+      "sha256": "3fe36262fcdbb94fa64b1ae8eb82525418bb74671f99c60935d639fe20b50545"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/csv_lane.py",
+      "sha256": "b130d492155a6c77a8d8ff40266cfbd28c8fd2098f15643ca36da70337c352d0"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/receipt_batch_v0_1/receive.py",
+      "sha256": "ba5c5d693e9c73a6b0cc0a7b2d0b8a762a159059a2102c13d289850d6eeb5525"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/download_policy_v0_2/collection_snapshot_policy.json",
+      "sha256": "07c9865d7486e34a4cc8a665340675577559de5e74363001d39b82d460fecb7f"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/download_policy_v0_2/official_province_options.csv",
+      "sha256": "005d528ff9da696378af0342ceed8befc72493a2a7585dc298e2e7dd7a04a331"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/download_policy_v0_2/official_ui_observations.json",
+      "sha256": "a0eb8bef0156e5cf79afe52cbdf33a77e2a09ce9b3b8a5e4f343fba65b82bd14"
+    },
+    {
+      "path": "${PROJECT_ROOT}/src/khmd_reference_resource_monitor_v0_2.py",
+      "sha256": "4f64dca936010397bb9b1329821d11138a161b1f9521a193928e335108a40e69"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_nationwide_reference_resource_monitor_contract_v0_2.json",
+      "sha256": "d00ba84f921e9f51f3133e381e1fbc28ffd4f703768428aa4be9e7952cdcfd4d"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_1/baseline_registry.json",
+      "sha256": "7d7d689aae88df8ea3b2fba3b2538670448cf08627d4c1794d90d59a5f9474e7"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_equivalence_v0_1/input_manifest.json",
+      "sha256": "bfbaaf917250b21545ca75b3defc732bdf66d8992f21c38953d50dc54a6c7121"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/input_manifest.json",
+      "sha256": "c58570b3c40c8c320c238ddf35b949865fd170367f88eb51ebfd213fedfe20fb"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/historical_expansion_v0_1/SALE_EUNPYEONG_2011Q1/qualification.json",
+      "sha256": "aff8a2ee6d8bc2e66a47db72c30f96394e0780c6cc303f71930a46f9c50ae73f"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/historical_expansion_v0_1/rent_mapping_v0_2/RENT_GANGNAM_202105_06/qualification.json",
+      "sha256": "bf6b5ae79974132bf0945465f8d2bd300069f4f92930beff8a5a9bc12b87b934"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/historical_expansion_v0_1/cheongju_run_v0_1/input_manifest.json",
+      "sha256": "535d1927ecf508e57fd029e472b07538b0529375031e508311864fa3871a754d"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/spatial_target_v0_1/qualification.json",
+      "sha256": "db710cbfb234912bf60aac418265ef507b253a5e052cfefd080981e3337dddf6"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/discrepancy_handoff_v0_1/REPORT.txt",
+      "sha256": "3d23db429fb4f4cee6565aa795afefee12452a1e270fbe514d50155c8278936d"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/historical_expansion_v0_1/cheongju_run_v0_1/REPORT.txt",
+      "sha256": "39ea66e5b550e789a698638dbbf3193aad0b612bf6499658b4bdf9735a903d9f"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/official_evidence.json",
+      "sha256": "975bab7a69f1eeaec5db40e9e4932e3190f3f1a1eb1788e11431db6f6fdee651"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/validate_large_csv_v0_3.py",
+      "sha256": "ede8386476f50432f0aafe0502e09d613997e12172af16dc6efb8f3797427ea1"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_1/runs/receipt_20261027T103502_712991Z/final_receipt.json",
+      "sha256": "11b186033d38705e9b79dd504d03d77fd7b12aa494fd7b80e8def9cb3190a224"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_1/runs/receipt_20261027T103502_712991Z/analysis_release_manifest.json",
+      "sha256": "75198943ecda5173afc52aa8571fe2a1cf843fea3a858508c5ae3ebaa07d6d2c"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_1/runs/receipt_20261027T103502_712991Z/national_cell_status.json",
+      "sha256": "4087543d1ed6d1eded60742aa15deb7d5ea755a014dddd456703ece973c90c3a"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_1/runs/receipt_20261027T103502_712991Z/registry_index.json",
+      "sha256": "8d8ad340197e315d0ccda5b034874e2fb95dfd9b8e031521375199add683f974"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_1/receipt.py",
+      "sha256": "64a183643d2443596d13fe56f49aeb05336df235f16b5d366a9b7ff0ce577708"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_1/code_bindings.json",
+      "sha256": "e589b5315bc35024acccc9d446808b1c1ed26334c69d783a37f8aca8769477b9"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_2/runs/receipt_20261027T120339_588342Z/final_receipt.json",
+      "sha256": "944b7999784977e222ce5f178d64f2d38095c60576949a5536f34934c10bbc00"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_2/runs/receipt_20261027T120339_588342Z/analysis_release_manifest.json",
+      "sha256": "309dde10e567ec7584e55bdd20501e1e6b1185bb7f98948e6267597eb46ae0df"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_2/runs/receipt_20261027T120339_588342Z/national_cell_status.json",
+      "sha256": "a0c714873e5b31f1da77e2af231f57abd733b107c26cde19abcd6ff7feb41a19"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_2/runs/receipt_20261027T120339_588342Z/registry_index.json",
+      "sha256": "30d8cd7734644fe8f71316b88b21aa4ac9a3080a3016e4bca8280e99471bb3b3"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_2/receipt.py",
+      "sha256": "8b85053cc7c3eaa081db57a8727944739c9b9178e3823909d448fbd91692d962"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/frozen_cells.json",
+      "sha256": "83b2d9497a58d7174bbaff2ee01b13b0bfba7a90c818d170ae973cadc4b51d99"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/candidate_exclusions.json",
+      "sha256": "ff89db7e5f68e7ac7dc96b5586f3bae0329f9c2e5cf42f69218f5dd14261a1e1"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/gyeongnam_2024_sale_review_v0_1/REPORT.txt",
+      "sha256": "ffb93a1a750fa188e534b1540404aed8e03d1b1654e1f0f9f230cc35fa9982a6"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/gyeongnam_2024_sale_review_v0_1/inspection.json",
+      "sha256": "7b2241c9d4da832f71b126cf46c0d4f05d4efba0a8e532ef855d1a062fe169d5"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/gyeongnam_2024_sale_review_v0_1/final_receipt.json",
+      "sha256": "cf429bdd2f96c3a6efff44e5a42977d18259a8b01b55871977fd18f8e696ef00"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/runs/selection_20261027T133023_171194Z/final_receipt.json",
+      "sha256": "855dd51c0b035f791cd17b324def1c1309289722b1a9fd8d32be84b610d034ee"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/runs/selection_20261027T133023_171194Z/analysis_release_manifest.json",
+      "sha256": "55992db61b2573781ee9d377822a0981949b82c9a03dec226f64efcbc8335d1c"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/runs/selection_20261027T133023_171194Z/registry_index.json",
+      "sha256": "040ba8d8d4c0bdf35a92fb4ceb0788c00a3ce49b091e81cca93a016beeb38154"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3/runs/selection_20261027T133023_171194Z/national_cell_status.json",
+      "sha256": "4f6e347ffa171b9e323daa30b520fe6514d1b6e610d106e389e3f3d7c3e1ba29"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/download_policy_v0_3/national_download_manifest.json",
+      "sha256": "05f392df526012dc2cfd5a9abf03aa2cf8bf4ca06d2d50d7b852502cd44c0057"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/download_policy_v0_3/current_ui_evidence.json",
+      "sha256": "79d6319563ff8f2d6366ff951455827685bed21c17795cb49c55e41a6b50d616"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_remaining86_v0_1/frozen_cells.json",
+      "sha256": "b4949074f0b3368f473a71719440cb61425ec46e235c4c77dc9b0c362c5d8b21"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_remaining86_v0_1/candidate_exclusions.json",
+      "sha256": "ff89db7e5f68e7ac7dc96b5586f3bae0329f9c2e5cf42f69218f5dd14261a1e1"
+    }
+  ],
+  "user_approval": "User instruction prepares receipt for the explicitly confirmed additional conditions using the existing receipt path. Clean unique SHA may be selected; existing selected snapshots cannot be replaced. No live/API authority.",
+  "header_absent_controls": "UNKNOWN unless separately supplied. Planned defaults are not observed header evidence.",
+  "acquisition_times": "UNKNOWN unless separately supplied",
+  "predecessor_receiver": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_304_v0_3",
+  "approved_additional_cell_ids": [
+    "CSV-RENT-2011-12000",
+    "CSV-RENT-2011-27000",
+    "CSV-RENT-2011-36000",
+    "CSV-RENT-2011-47000",
+    "CSV-RENT-2012-12000",
+    "CSV-RENT-2012-27000",
+    "CSV-RENT-2012-36000",
+    "CSV-RENT-2012-47000",
+    "CSV-RENT-2013-12000",
+    "CSV-RENT-2013-27000",
+    "CSV-RENT-2013-47000",
+    "CSV-RENT-2014-12000",
+    "CSV-RENT-2014-27000",
+    "CSV-RENT-2014-47000",
+    "CSV-RENT-2015-12000",
+    "CSV-RENT-2015-27000",
+    "CSV-RENT-2015-47000",
+    "CSV-RENT-2016-12000",
+    "CSV-RENT-2016-27000",
+    "CSV-RENT-2016-47000",
+    "CSV-RENT-2017-12000",
+    "CSV-RENT-2017-27000",
+    "CSV-RENT-2017-47000",
+    "CSV-RENT-2018-12000",
+    "CSV-RENT-2018-27000",
+    "CSV-RENT-2018-47000",
+    "CSV-RENT-2019-12000",
+    "CSV-RENT-2019-27000",
+    "CSV-RENT-2019-47000",
+    "CSV-RENT-2020-12000",
+    "CSV-RENT-2020-27000",
+    "CSV-RENT-2020-47000",
+    "CSV-RENT-2021-12000",
+    "CSV-RENT-2021-27000",
+    "CSV-RENT-2021-47000",
+    "CSV-RENT-2022-12000",
+    "CSV-RENT-2022-27000",
+    "CSV-RENT-2022-47000",
+    "CSV-RENT-2023-12000",
+    "CSV-RENT-2023-27000",
+    "CSV-RENT-2023-47000",
+    "CSV-RENT-2024-12000",
+    "CSV-RENT-2025-12000",
+    "CSV-SALE-2011-12000",
+    "CSV-SALE-2011-27000",
+    "CSV-SALE-2011-36000",
+    "CSV-SALE-2011-47000",
+    "CSV-SALE-2012-12000",
+    "CSV-SALE-2012-27000",
+    "CSV-SALE-2012-36000",
+    "CSV-SALE-2012-47000",
+    "CSV-SALE-2013-12000",
+    "CSV-SALE-2013-27000",
+    "CSV-SALE-2013-47000",
+    "CSV-SALE-2014-12000",
+    "CSV-SALE-2014-27000",
+    "CSV-SALE-2014-47000",
+    "CSV-SALE-2015-12000",
+    "CSV-SALE-2015-27000",
+    "CSV-SALE-2015-47000",
+    "CSV-SALE-2016-12000",
+    "CSV-SALE-2016-27000",
+    "CSV-SALE-2016-47000",
+    "CSV-SALE-2017-12000",
+    "CSV-SALE-2017-27000",
+    "CSV-SALE-2017-47000",
+    "CSV-SALE-2018-12000",
+    "CSV-SALE-2018-27000",
+    "CSV-SALE-2018-47000",
+    "CSV-SALE-2019-12000",
+    "CSV-SALE-2019-27000",
+    "CSV-SALE-2019-47000",
+    "CSV-SALE-2020-12000",
+    "CSV-SALE-2020-27000",
+    "CSV-SALE-2020-47000",
+    "CSV-SALE-2021-12000",
+    "CSV-SALE-2021-27000",
+    "CSV-SALE-2021-47000",
+    "CSV-SALE-2022-12000",
+    "CSV-SALE-2022-27000",
+    "CSV-SALE-2022-47000",
+    "CSV-SALE-2023-12000",
+    "CSV-SALE-2023-27000",
+    "CSV-SALE-2023-47000",
+    "CSV-SALE-2024-12000",
+    "CSV-SALE-2025-12000"
+  ],
+  "held_cell_ids": [],
+  "historical_coverage": "UNVERIFIED_FOR_ALL86; query-unit receipt does not establish event-time geography or population completeness"
+}

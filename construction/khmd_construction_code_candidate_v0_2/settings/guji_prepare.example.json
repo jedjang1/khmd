@@ -1,0 +1,134 @@
+{
+  "schema": "KHMD_CONSTRUCTION_INPUTS_V2",
+  "scope": "EXTERNAL",
+  "stage": "guji_prepare",
+  "parameters": {
+    "baseline_keys": 47676,
+    "baseline_occurrences": 20916100,
+    "guji_occurrences": 8629,
+    "regions": null,
+    "reference_date": "2026-09-08"
+  },
+  "inputs": [
+    {
+      "role": "seed_manifest",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "seed_database",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "seed_crosswalk",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "demand",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "mapping",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "members",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "parcel_index",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "region:대구광역시",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "base_region:대구광역시",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "busan_candidates",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "busan_extraction",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    },
+    {
+      "role": "dbf:SET_ID",
+      "path": null,
+      "expected_sha256": null,
+      "schema": null,
+      "source": null,
+      "version": null,
+      "reference_time": null,
+      "acquisition_time_status": null
+    }
+  ]
+}

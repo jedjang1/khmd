@@ -1,0 +1,150 @@
+{
+  "scope": "BUSAN_ONLY_30_CELLS_2011_2025",
+  "started_utc": "2026-10-27T15:42:56.215672+00:00",
+  "captured_runtime_root": "internal/runtime_captures/khmd_nationwide_v0_1/QGIS_338_REFERENCE_VALIDATION_40657c8b4f9e98319cf2",
+  "primary_python": "${KHMD_EXTERNAL_46097C336B}",
+  "members": {
+    ".cpg": {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.cpg",
+      "sha256": "cbaec911583c788ca4c65334c9ae53f4c3b9a775aefe890a7e326ae2011ba563",
+      "bytes": 8,
+      "source_member": "AL_D002_26_20260908.cpg",
+      "source_archive_sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e"
+    },
+    ".dbf": {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.dbf",
+      "sha256": "ebfb19f74a87f91975e9c59f95527bee7e1d4d0ff6b13eba1f51a01d77a7192f",
+      "bytes": 364265330,
+      "source_member": "AL_D002_26_20260908.dbf",
+      "source_archive_sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e"
+    },
+    ".prj": {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.prj",
+      "sha256": "dcfa42cfd392417d954aeb5038d12fdaa32a30879b3f5d611f207c7115dc9e7e",
+      "bytes": 422,
+      "source_member": "AL_D002_26_20260908.prj",
+      "source_archive_sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e"
+    },
+    ".shp": {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.shp",
+      "sha256": "199dde790b69c695970192154cbfe2deb2b5232dc8e45318664780af8a9fbdfb",
+      "bytes": 173554596,
+      "source_member": "AL_D002_26_20260908.shp",
+      "source_archive_sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e"
+    },
+    ".shx": {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.shx",
+      "sha256": "be83b4b02036e3f82098678a7a63cae15eb33fb2573c023d3c61b0bf37c33b0e",
+      "bytes": 5647620,
+      "source_member": "AL_D002_26_20260908.shx",
+      "source_archive_sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e"
+    }
+  },
+  "raw_archive": {
+    "bytes": "91552605",
+    "object_identity": "NA:23/20171128DS00002/fileNo_4724",
+    "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+    "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4724/provider_object.zip",
+    "reference_region_id": "NRC_4724",
+    "region": "부산광역시",
+    "sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e",
+    "snapshot": "2026-09-08",
+    "status": "VALID_RAW_BYTE_PROMOTION",
+    "upstream_validation_evidence": "metadata/khmd_nationwide_manual_reference_staging_validation_freeze_v0_2.json",
+    "upstream_validation_sha256": "233eaa28b01928301dec24792c0f0215c4b011527e59bf08ce9855c4bd5ae7c8"
+  },
+  "prior_point_db": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/generated_points.sqlite",
+  "bindings": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/grid.py",
+      "sha256": "783a254f1c5a01ab68bae14b7a2384d1c093a58a4759ae027c872351255aeded"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/run.py",
+      "sha256": "4ed725c9803112c02de7ee11ba4d129fb4c03df5aa75eb58fd6b0579a67b0e34"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/prepare.py",
+      "sha256": "578f863d46bc4719b5737ec199a7aee92b2c949388ee67756ffeaf22c2f40fb0"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/demand.py",
+      "sha256": "991ed9162a67c79f22d1cf116df29ddb3e30e654d93e805d21c60d8fc9bf9eb4"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/candidate_publication.py",
+      "sha256": "041ff1ed4bfe616c0e87da638b82144dd002fda584923b37b3f6738fe8c25e4e"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/national_demand/final_manifest.json",
+      "sha256": "8c12f8713ce2b5c04b55c7238727c2bec82241613ae4a1f87b6f3cc5dc6fcad1"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/busan_candidates/candidate_manifest.json",
+      "sha256": "62e927d9e7b76df58779c27eb26a8bc913cf392801131cc71f08d5934b20cb00"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/busan_candidates/publication_receipt.json",
+      "sha256": "9b5240479855639ed2db8e6cd99212121583b57669d1b5d2e8d1a04d3b491bd2"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_v0_4.py",
+      "sha256": "aaff8e5a8abd90f4bf1a1491d5599d149da7bf627ecad996878728908ef0bea9"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/bridge.py",
+      "sha256": "b4fd8688502698097ea896ff1ac11cab88b0dba926c306a275955fcfec7acdd2"
+    },
+    {
+      "path": "${PROJECT_ROOT}/src/spatial_representation_inputs_v0_1.py",
+      "sha256": "021e6d6d501702c385ce12b50a254b3227fef56e76c514cfb09c94b4a83e32e0"
+    },
+    {
+      "path": "${PROJECT_ROOT}/src/parcel_spatial_crosswalk_geometry_v0_1.py",
+      "sha256": "4c360b9c638ead21db8e2b8c2596b3783523d3c61cffba8da730c17a5d5663bd"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_remaining86_v0_1/runs/receipt_20261027T140451_660823Z/analysis_release_manifest.json",
+      "sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/generated_points.sqlite",
+      "sha256": "3bb4de954a4eba42cf607fffae83a8b6c6d91aa8ee84301b942bdf29cd010879"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/national_demand/demand.sqlite",
+      "sha256": "247d26503e04466b2a5695d826712e90f0adfa99e82b953060b29d1f84f1341e"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/busan_candidates/candidates.sqlite",
+      "sha256": "a62d9395a535e4789ce2b947b5dbeba2640783f2cad98abde7e4924c12a42688"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.cpg",
+      "sha256": "cbaec911583c788ca4c65334c9ae53f4c3b9a775aefe890a7e326ae2011ba563"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.dbf",
+      "sha256": "ebfb19f74a87f91975e9c59f95527bee7e1d4d0ff6b13eba1f51a01d77a7192f"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.prj",
+      "sha256": "dcfa42cfd392417d954aeb5038d12fdaa32a30879b3f5d611f207c7115dc9e7e"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.shp",
+      "sha256": "199dde790b69c695970192154cbfe2deb2b5232dc8e45318664780af8a9fbdfb"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/scratch/AL_D002_26_20260908.shx",
+      "sha256": "be83b4b02036e3f82098678a7a63cae15eb33fb2573c023d3c61b0bf37c33b0e"
+    }
+  ],
+  "release": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\analysis_release_manifest.json",
+  "release_sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a",
+  "expected_occurrences": 1327806,
+  "source_reference_date": "2026-09-08",
+  "network": false,
+  "raw_CSV_reparse": false,
+  "national_demand_regeneration": false
+}

@@ -1,0 +1,146 @@
+{
+  "mode": "TARGETED_EXISTING_ASSET_SUPPLY",
+  "prior": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1",
+  "release": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\analysis_release_manifest.json",
+  "release_sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a",
+  "targets": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/targets.json",
+  "national_manifest": "metadata/khmd_nationwide_cadastral_reference_release_manifest_v0_1.json",
+  "busan": {
+    "bytes": "91552605",
+    "object_identity": "NA:23/20171128DS00002/fileNo_4724",
+    "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+    "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4724/provider_object.zip",
+    "reference_region_id": "NRC_4724",
+    "region": "부산광역시",
+    "sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e",
+    "snapshot": "2026-09-08",
+    "status": "VALID_RAW_BYTE_PROMOTION",
+    "upstream_validation_evidence": "metadata/khmd_nationwide_manual_reference_staging_validation_freeze_v0_2.json",
+    "upstream_validation_sha256": "233eaa28b01928301dec24792c0f0215c4b011527e59bf08ce9855c4bd5ae7c8"
+  },
+  "seoul": {
+    "dbf_path": "data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/SEOUL/AL_D002_11_20260908.dbf",
+    "dbf_sha": "f9379597a137fc0bb4118b98cb68c9283b40d87c107944fe13b0ca738c1a6919",
+    "extraction_manifest_path": "metadata/cadastral_na23_seoul_extraction_manifest_v0_1.json",
+    "extraction_manifest_sha": "d67c03a0ff8690802cb6fbd85c52e534d47ac6adb49a54d77f829c899cd0f491",
+    "fileNo": "4722",
+    "raw_archive_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/fileNo_4722/AL_D002_11_20260908.zip",
+    "raw_archive_sha": "51e403ff6e3e3fe598b521ad3a5a8fadb284df4a4020442c67dfff90eda2c2fc",
+    "record_count": "896903",
+    "reference_source": "CADASTRAL_NA23_FILE",
+    "region": "서울특별시",
+    "schema_json": "{\"LDID\":0,\"fields\":[{\"decimals\":0,\"name\":\"A0\",\"offset\":1,\"type\":\"N\",\"width\":9},{\"decimals\":0,\"name\":\"A1\",\"offset\":10,\"type\":\"C\",\"width\":19},{\"decimals\":0,\"name\":\"A2\",\"offset\":29,\"type\":\"C\",\"width\":10},{\"decimals\":0,\"name\":\"A3\",\"offset\":39,\"type\":\"C\",\"width\":254},{\"decimals\":0,\"name\":\"A4\",\"offset\":293,\"type\":\"C\",\"width\":10},{\"decimals\":0,\"name\":\"A5\",\"offset\":303,\"type\":\"C\",\"width\":200},{\"decimals\":0,\"name\":\"A6\",\"offset\":503,\"type\":\"D\",\"width\":8},{\"decimals\":0,\"name\":\"A7\",\"offset\":511,\"type\":\"C\",\"width\":5}],\"header_length\":289,\"record_count\":896903,\"record_length\":516}",
+    "set_id": "4722:AL_D002_11_20260908",
+    "shp_member": "AL_D002_11_20260908.shp",
+    "snapshot_id": "CADASTRAL_NA23_20260908_PILOT_V0_4",
+    "source": "cadastral"
+  },
+  "bindings": [
+    {
+      "path": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/sample_config.json",
+      "sha256": "a8fc10e0ac4623888063822cb2d85eb3d2c2e9446732e38f490679931dd16add"
+    },
+    {
+      "path": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/sample_run_v0_1/address_results.jsonl",
+      "sha256": "1dd9a856ab4b6b96b284a30a333dcda2bfa043a57424dd2a5c12c747b60ef19c"
+    },
+    {
+      "path": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/sample_run_v0_1/completion.json",
+      "sha256": "4c04d594d63a2e5339416557f3ee2ad336d2b5f3babe0a0d9fb4df2e6a51be91"
+    },
+    {
+      "path": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/sample_run_v0_1/observations.jsonl",
+      "sha256": "8544263ef7089f3ab2e7b390005edbcab7d01cefad452920ffba2d79e96bd7af"
+    },
+    {
+      "path": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/targets.json",
+      "sha256": "2a6d15cf361d19df1867cb22080fcb5fd7574d8ab4ecc6800cee2d3df2961f3d"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\analysis_release_manifest.json",
+      "sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\registry_index.json",
+      "sha256": "ae1806dfae3c4cf9f63151da8b6981384a7a68c21739ba64cf1f5762929d36d9"
+    },
+    {
+      "path": "metadata/cadastral_na23_seoul_extraction_manifest_v0_1.json",
+      "sha256": "d67c03a0ff8690802cb6fbd85c52e534d47ac6adb49a54d77f829c899cd0f491"
+    },
+    {
+      "path": "metadata/khmd_fixed_1km_grid_spec_v0_1.json",
+      "sha256": "aed1fdbeb4d5068c5a0f4ae1eda610fbe025de622af37dc2dd3b384be16367dc"
+    },
+    {
+      "path": "metadata/khmd_nationwide_cadastral_reference_linkage_handoff_v0_1.json",
+      "sha256": "b12dc88a62226cfda339c1b14d07fb4651a0fef9f592ce8c61f93061e28d9d28"
+    },
+    {
+      "path": "metadata/khmd_nationwide_cadastral_reference_object_registry_v0_1.csv",
+      "sha256": "aea7b989e1b916293a04df476cc685041e607ebe7edc2ded511b6fa44ad4b729"
+    },
+    {
+      "path": "metadata/khmd_nationwide_cadastral_reference_release_manifest_v0_1.json",
+      "sha256": "090e3f7671c9d3c75db511c2a041a7f4d2666faee3805db24d37d8dd2b31a5f2"
+    },
+    {
+      "path": "metadata/khmd_nationwide_cadastral_reference_spatial_handoff_v0_1.json",
+      "sha256": "68b0914c4eb859d566b4d196f38a01d1905353811cfc0b315a43612e3e333442"
+    },
+    {
+      "path": "metadata/khmd_nationwide_cadastral_schema_crs_encoding_audit_v0_1.csv",
+      "sha256": "a5106d14994663741ecada9307ef4d5e489a43163b6dc3fadc1bceb871162cd4"
+    },
+    {
+      "path": "metadata/khmd_nationwide_invalid_geometry_policy_v0_1.json",
+      "sha256": "a9c01201141e9420aadd28b88298c3de8397c9108a62dd3c76361e4517f597f1"
+    },
+    {
+      "path": "metadata/khmd_nationwide_reference_resource_monitor_contract_v0_2.json",
+      "sha256": "d00ba84f921e9f51f3133e381e1fbc28ffd4f703768428aa4be9e7952cdcfd4d"
+    },
+    {
+      "path": "metadata/khmd_nationwide_reference_row_exception_registry_v0_1.csv",
+      "sha256": "f2894c39f9a2afbbb5d4d0a38b77e26064bcedfe42ca47f0b8392cc624ecbe41"
+    },
+    {
+      "path": "metadata/khmd_parcel_spatial_crosswalk_geometry_runtime_spec_v0_1.json",
+      "sha256": "7654aafadff645c3ad9a23ccede54b7c87886ec70e3ea49d6aade4e31f38eb45"
+    },
+    {
+      "path": "src/khmd_reference_resource_monitor_v0_2.py",
+      "sha256": "4f64dca936010397bb9b1329821d11138a161b1f9521a193928e335108a40e69"
+    },
+    {
+      "path": "src/parcel_spatial_crosswalk_geometry_v0_1.py",
+      "sha256": "4c360b9c638ead21db8e2b8c2596b3783523d3c61cffba8da730c17a5d5663bd"
+    },
+    {
+      "path": "src/run_khmd_parcel_spatial_crosswalk_v0_1.py",
+      "sha256": "7d1b25d265ae87e74c94daa2b5041d8ba10a657d8e733cb852a5531400cd3f42"
+    },
+    {
+      "path": "src/spatial_representation_inputs_v0_1.py",
+      "sha256": "021e6d6d501702c385ce12b50a254b3227fef56e76c514cfb09c94b4a83e32e0"
+    },
+    {
+      "path": "metadata/khmd_nationwide_runtime_snapshot_index_v0_1.json",
+      "sha256": "678f8970a554e72270a3269da24d8ef871ec85f27af4f1164aaed4d6f29cdb1f"
+    },
+    {
+      "path": "internal/runtime_captures/khmd_nationwide_v0_1/QGIS_338_REFERENCE_VALIDATION_40657c8b4f9e98319cf2/snapshot_manifest.json",
+      "sha256": "f9e7179f33e296f084c2a5d7c5fa2ea2640a6f6b7733b56a56642bc6c726ccfc"
+    },
+    {
+      "path": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_v0_4.py",
+      "sha256": "aaff8e5a8abd90f4bf1a1491d5599d149da7bf627ecad996878728908ef0bea9"
+    }
+  ],
+  "max_target_addresses": 35,
+  "snapshot": "2026-09-08",
+  "grid_sha256": "aed1fdbeb4d5068c5a0f4ae1eda610fbe025de622af37dc2dd3b384be16367dc",
+  "grid_version": "KHMD_GRID_1KM_EPSG5186_V0_1",
+  "full_national_execution": false,
+  "captured_runtime_root": "internal/runtime_captures/khmd_nationwide_v0_1/QGIS_338_REFERENCE_VALIDATION_40657c8b4f9e98319cf2"
+}

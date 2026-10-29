@@ -1,0 +1,46 @@
+{
+  "scope": "BUSAN_30_SELECTED_CELLS_ONLY",
+  "change": "Use independent read-only SQLite connection instead of unsupported ATTACH URI; resume committed key results, no geometry recomputation",
+  "created_utc": "2026-10-27T15:47:30.569715+00:00",
+  "bindings": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_3/finish.py",
+      "sha256": "b8daf4829159dccdb86ef635bbdaf3a017dcba8a5b18bf8612522aa84c056ed8"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_3/prepare.py",
+      "sha256": "2f7454448708cc5428db48bb40a8be64d5699b372b8f49f8c26d5b32a5d92174"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/config.json",
+      "sha256": "039cff9052690422ebacd6bd044a2cb88d2fec13d6b981cb4858a87a24994c5e"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/grid_policy.json",
+      "sha256": "2d1b37606e63c82dce7c7ae62bdac30299f059f1ab101f33dd77a8996b8f5ef8"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/busan_run/spatial.sqlite",
+      "sha256": "0971f74ab5d271115662b7a9bcb647c5ba90972c44a7dba74223a1798e348ab8"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/full_attempt/supervised/primary_exception.json",
+      "sha256": "6cc2c2cf798bc1aaf297b5201dd6db739801854ceeba7e88a2e02d798aecbc13"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/full_attempt/supervised/supervisor_receipt.json",
+      "sha256": "28c25bfc1f38010d2a1e059b33ce03ca943f7b418ca8f5068ab41a5268beb3f3"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/policy_attempt/completion.json",
+      "sha256": "156c352ed30413bcd65e3dccadfca5d43868b34a8a309ba42fb2e83360d9195f"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/regression_attempt/completion.json",
+      "sha256": "fd98a1b3e711e0905ceea4cf5cbf530c61bc7bd8bf66579c4b3c849f443592ad"
+    }
+  ],
+  "prior_geometry_status": "ALL_5120_KEYS_COMMITTED_AGGREGATION_ENTRY_FAILED",
+  "prior_failure_is_not_success": true,
+  "expected_occurrences": 1327806
+}

@@ -1,0 +1,16 @@
+args <- commandArgs(TRUE)
+stopifnot(length(args)==1L)
+out <- normalizePath(args[[1]], winslash='/', mustWork=TRUE)
+library(khmd)
+stopifnot(as.character(packageVersion('khmd'))=='0.0.2')
+job <- jsonlite::fromJSON(file.path(out,'r_target.json'),simplifyVector=FALSE)
+x <- job$target
+stopifnot(!is.null(x))
+t <- proc.time()[['elapsed']]
+r <- khmd_open_release(file.path(out,'analysis_release_manifest.json'),expected_sha256=job$release_sha256)
+rows <- khmd_collect(r,family=x$family,province=x$province,start=x$start,end=x$end,limit=5)
+counts <- khmd_count(r,family=x$family,province=x$province,start=x$start,end=x$end)
+stopifnot(sum(counts$occurrences)==x$expected,nrow(rows)==min(5L,x$expected),all(rows$file_sha==x$file_sha256))
+jsonlite::write_json(list(status='PASS',package_version='0.0.2',query=x,actual_count=sum(counts$occurrences),returned_rows=nrow(rows),elapsed_seconds=proc.time()[['elapsed']]-t,full_release_SQL_count=0,build_check_rerun=0),file.path(out,'r_connection_validation.json'),auto_unbox=TRUE,pretty=TRUE)
+write.csv(counts,file.path(out,'r_scope_counts.csv'),row.names=FALSE,fileEncoding='UTF-8')
+cat('R_SMALL_SCOPE_PASS\n')

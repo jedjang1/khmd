@@ -1,0 +1,61 @@
+args <- commandArgs(TRUE)
+stopifnot(length(args)==4L)
+gate <- Sys.getenv('KHMD_R_START_GATE');deadline <- Sys.time()+30
+while(!file.exists(gate)) { if(Sys.time()>deadline) stop('ADMISSION_TIMEOUT');Sys.sleep(.01) }
+root <- normalizePath(args[1],winslash='/',mustWork=TRUE)
+lib <- normalizePath(args[2],winslash='/',mustWork=TRUE)
+out <- normalizePath(args[3],winslash='/',mustWork=TRUE)
+demo <- identical(args[4],'demo');.libPaths(c(lib,.Library));library(khmd,lib.loc=lib)
+stopifnot(as.character(packageVersion('khmd'))=='0.0.5')
+started <- proc.time()[['elapsed']]
+inside <- function(p,base) startsWith(normalizePath(p,winslash='/',mustWork=TRUE),paste0(base,'/'))
+inventory <- jsonlite::fromJSON(file.path(root,'FILE_INVENTORY.json'),simplifyVector=FALSE)
+pin <- function(rel) { x <- Filter(function(x) identical(x$path,rel),inventory$files);stopifnot(length(x)==1L);x[[1]]$sha256 }
+count_rel <- if(demo) 'example_data/count_release.json' else 'data/count/release_manifest.json'
+price_rel <- if(demo) 'example_data/price_release.json' else 'data/price/release_manifest.json'
+p <- khmd_open_panel(file.path(root,count_rel),expected_sha256=pin(count_rel))
+paths <- c(p$manifest,p$database,unlist(p$references))
+stopifnot(all(vapply(paths,inside,logical(1),base=root)))
+counts <- khmd_panel_collect(p,quarter='2025Q1',family='SALE',limit=5)
+stopifnot(nrow(counts)>0L)
+# A chosen observed grid, not a generated zero-filled location.
+chosen_grid <- counts$grid_id[1]
+count_grid <- khmd_panel_collect(p,grid_id=chosen_grid,quarter='2025Q1',family='SALE',limit=5)
+quality <- khmd_panel_quality(p,quarter='2025Q1',family='RENT',limit=3)
+stopifnot(all(quality$input_n==quality$assigned_n+quality$unassigned_n))
+cs <- khmd_panel_stream(p,function(x) { write.csv(x,file.path(out,'count_chunk.csv'),row.names=FALSE);FALSE },quarter='2025Q1',chunk_size=7L)
+write.csv(count_grid,file.path(out,'count_selected_grid.csv'),row.names=FALSE)
+write.csv(quality,file.path(out,'query_region_quality.csv'),row.names=FALSE)
+cat('COUNT_AND_QUALITY_PASS\n');flush.console();gc()
+q <- khmd_open_price_panel(file.path(root,price_rel),expected_sha256=pin(price_rel))
+paths <- c(paths,q$manifest,q$database,unlist(q$references))
+stopifnot(all(vapply(paths,inside,logical(1),base=root)))
+sale <- khmd_price_collect(q,metric=c('sale_amount','sale_amount_m2'),grid_id=chosen_grid,quarter='2025Q1',family='SALE',limit=4)
+rent <- khmd_price_collect(q,metric=c('deposit','monthly_rent'),quarter='2025Q1',family='RENT',rent_subtype='ALL',limit=4)
+stopifnot(all(c('sale_amount','sale_amount_m2') %in% sale$metric),all(c('deposit','monthly_rent') %in% rent$metric))
+type_quality <- khmd_price_quality(q,family='RENT',rent_subtype=c('ALL','JEONSE','MONTHLY_RENT','UNKNOWN'))
+stopifnot(all(type_quality$n_obs==type_quality$n_valid+type_quality$n_excluded))
+subtype <- khmd_price_collect(q,metric='monthly_rent',quarter='2025Q1',family='RENT',rent_subtype=c('JEONSE','MONTHLY_RENT'),limit=6)
+ps <- khmd_price_stream(q,function(x) { write.csv(x,file.path(out,'price_chunk.csv'),row.names=FALSE);FALSE },metric='deposit',quarter='2025Q1',family='RENT',rent_subtype='JEONSE',chunk_size=7L)
+write.csv(sale,file.path(out,'sale_amount_and_m2.csv'),row.names=FALSE)
+write.csv(rent,file.path(out,'rent_pooled.csv'),row.names=FALSE)
+write.csv(subtype,file.path(out,'rent_subtypes.csv'),row.names=FALSE)
+write.csv(type_quality,file.path(out,'metric_quality.csv'),row.names=FALSE)
+stopifnot(all(sale$n_obs==sale$n_valid+sale$n_excluded),all(rent$n_obs==rent$n_valid+rent$n_excluded))
+if(demo) {
+ stopifnot(counts$n_obs==2,sale$median[sale$metric=='sale_amount_m2']=='7.5')
+ u <- khmd_price_collect(q,metric='monthly_rent',rent_subtype='UNKNOWN');stopifnot(u$n_valid==0,is.na(u$median))
+ z <- khmd_price_collect(q,metric='monthly_rent',rent_subtype='JEONSE');stopifnot(z$median=='0',z$n_valid==1)
+} else {
+ stopifnot(p$document$input_occurrences==20916100,p$document$assigned==20403079,p$document$unassigned==513021,q$document$statistics_rows==2158314)
+ stopifnot(type_quality$n_obs[type_quality$rent_subtype=='ALL' & type_quality$metric=='deposit']==12304769)
+ stopifnot(type_quality$subtype_amount_discordance_n[type_quality$rent_subtype=='MONTHLY_RENT' & type_quality$metric=='monthly_rent']==458)
+ stopifnot(cs$rows==7,ps$rows==7)
+}
+packages <- vapply(c('khmd','DBI','RSQLite','jsonlite','digest'),find.package,character(1))
+stopifnot(all(vapply(packages,inside,logical(1),base=lib)))
+namespace_paths <- vapply(loadedNamespaces(),find.package,character(1))
+runtime_home <- normalizePath(R.home(),winslash='/',mustWork=TRUE)
+stopifnot(all(vapply(namespace_paths,function(x) inside(x,lib)||inside(x,runtime_home),logical(1))))
+jsonlite::write_json(list(status='PASS',mode=if(demo)'synthetic' else 'national_small_query',package_version='0.0.5',bundle_root=root,library=lib,R_home=R.home(),packages=as.list(packages),loaded_namespace_paths=as.list(namespace_paths),runtime_data_paths=as.list(unique(paths)),all_data_paths_inside_bundle=TRUE,all_required_packages_in_new_library=TRUE,used_path_map=FALSE,source_raw_or_geometry_reads=0,count_rows=nrow(counts),count_stream_rows=cs$rows,price_stream_rows=ps$rows,elapsed_seconds=proc.time()[['elapsed']]-started,OS=Sys.info()[['sysname']],scope='same computer, relocated directory; not another OS'),file.path(out,'example_result.json'),auto_unbox=TRUE,pretty=TRUE)
+cat('RELOCATED_EXAMPLE_PASS\n')

@@ -1,0 +1,67 @@
+{
+  "release": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\analysis_release_manifest.json",
+  "registry": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\registry_index.json",
+  "legal_master": "docs/routing_source_docs/molit_current_legal_dong_20260630/국토교통부_전국 법정동_20260630.csv",
+  "historical_names": "metadata/historical_routing_evidence_v0_1.csv",
+  "literal_selector": "src/rent_k2v2_route_audit_v0_1.py",
+  "quarter_source": "src/khmd_aggregation_period_audit_v0_1.py",
+  "regions": [
+    "강원특별자치도",
+    "경기도",
+    "경상남도",
+    "경상북도",
+    "대구광역시",
+    "대전광역시",
+    "부산광역시",
+    "서울특별시",
+    "세종특별자치시",
+    "울산광역시",
+    "인천광역시",
+    "전남광주통합특별시",
+    "전북특별자치도",
+    "제주특별자치도",
+    "충청남도",
+    "충청북도"
+  ],
+  "expected_files": 480,
+  "chunk_rows": 2000,
+  "mode": "NORMALIZED_DEMAND_ONLY_NO_SPATIAL",
+  "bindings": [
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\analysis_release_manifest.json",
+      "sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\registry_index.json",
+      "sha256": "ae1806dfae3c4cf9f63151da8b6981384a7a68c21739ba64cf1f5762929d36d9"
+    },
+    {
+      "path": "docs/routing_source_docs/molit_current_legal_dong_20260630/국토교통부_전국 법정동_20260630.csv",
+      "sha256": "e5657d4b53a16f72e42e9c0d91e84ff2d647e70dc56b9408da6fd057d0da45c3"
+    },
+    {
+      "path": "metadata/historical_routing_evidence_v0_1.csv",
+      "sha256": "235bcef0f4e63ce945c1f9d61f5f7389131ce8664f99a112855545aa291ccb68"
+    },
+    {
+      "path": "src/rent_k2v2_route_audit_v0_1.py",
+      "sha256": "60d836fb24d6acfd13488a47927dfe7e4b083e003072771d796ecc2319055449"
+    },
+    {
+      "path": "src/khmd_aggregation_period_audit_v0_1.py",
+      "sha256": "5f6311498fb5afb20057e5ce899c720d9d14c5d4ee3f9d8ec7d727d4a81386c4"
+    },
+    {
+      "path": "src/khmd_reference_resource_monitor_v0_2.py",
+      "sha256": "4f64dca936010397bb9b1329821d11138a161b1f9521a193928e335108a40e69"
+    },
+    {
+      "path": "metadata/khmd_nationwide_reference_resource_monitor_contract_v0_2.json",
+      "sha256": "d00ba84f921e9f51f3133e381e1fbc28ffd4f703768428aa4be9e7952cdcfd4d"
+    },
+    {
+      "path": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/demand.py",
+      "sha256": "991ed9162a67c79f22d1cf116df29ddb3e30e654d93e805d21c60d8fc9bf9eb4"
+    }
+  ]
+}

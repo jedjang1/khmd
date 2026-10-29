@@ -1,0 +1,3 @@
+0.0.5: approved author/maintainer, MIT project-code licence, actual NA:23 CC BY 2.0 KR attribution.
+R functions, exports, numeric calculations, data and release selection unchanged.
+Prior0.0.4 and its successful check are preserved separately, not this version check evidence.

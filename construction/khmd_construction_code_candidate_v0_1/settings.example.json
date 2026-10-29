@@ -1,0 +1,74 @@
+{
+  "KHMD_DOWNLOADS": {
+    "value": null,
+    "purpose": "External local path required by experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\receipt_batch_v0_1\\receive.py"
+  },
+  "KHMD_QGIS_ROOT": {
+    "value": null,
+    "purpose": "External local path required by experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_spatial_supply_v0_1\\supply_v0_4.py"
+  },
+  "KHMD_EXTERNAL_BB932EA6DE": {
+    "value": null,
+    "purpose": "External local path required by experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\paper_quality_metrics_v0_1\\run_r.py"
+  },
+  "KHMD_EXTERNAL_169BBBECB6": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_068C92AF31": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_AE9B3110D0": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_F807BF7C8A": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_92775EB8A3": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_20A447253D": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_06542F5416": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_C7F76E7E29": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_71B12A9020": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_0704280874": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_F8616D02A6": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_34FAC169A0": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_46097C336B": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_EXTERNAL_321F911D41": {
+    "value": null,
+    "purpose": "External path in a historical configuration template"
+  },
+  "KHMD_PROJECT_ROOT": {
+    "value": "./project",
+    "purpose": "Candidate mirror root; never point to original project for a trial run"
+  }
+}

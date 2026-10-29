@@ -1,0 +1,45 @@
+{
+  "assigned": 5,
+  "count_release": {
+    "path": "count_release.json",
+    "sha256": "7f919fb980a4315a742b148a9364f48645c590a6ddb461059654bb14cd366e71"
+  },
+  "count_release_sha256": "7f919fb980a4315a742b148a9364f48645c590a6ddb461059654bb14cd366e71",
+  "database": "price.sqlite",
+  "database_integrity": {
+    "algorithm": "sha256",
+    "bytes": 24576,
+    "chunk_bytes": 1048576,
+    "chunk_sha256": [
+      "627b9d27e6cafd51f118a3aa4ee1756bbcdf4a47456e7a213bf57ba90d309efd"
+    ]
+  },
+  "database_sha256": "627b9d27e6cafd51f118a3aa4ee1756bbcdf4a47456e7a213bf57ba90d309efd",
+  "example_only": true,
+  "grid": {
+    "CRS": "EPSG:5179",
+    "origin": [
+      0,
+      0
+    ],
+    "spacing_metres": 1000,
+    "version": "KHMD_UTMK_1KM_V1",
+    "xy": "easting,northing"
+  },
+  "grid_version": "KHMD_UTMK_1KM_V1",
+  "input_occurrences": 5,
+  "reference_snapshot": "SYNTHETIC_NO_REAL_GEOMETRY",
+  "schema": "KHMD_PRICE_PANEL_V1",
+  "source_release": {
+    "path": "source.json",
+    "sha256": "617eb0af1406f46ae5bd79285c4c0298b8a0017fc6afbf754ef62207f3aa6839"
+  },
+  "source_release_sha256": "617eb0af1406f46ae5bd79285c4c0298b8a0017fc6afbf754ef62207f3aa6839",
+  "spatial_manifest_sha256": "49ac17ff03c7f8f827216807773aebd4f6a04f5c9b7883cbd7fe238d1a7ae62a",
+  "spatial_result": {
+    "path": "spatial.json",
+    "sha256": "49ac17ff03c7f8f827216807773aebd4f6a04f5c9b7883cbd7fe238d1a7ae62a"
+  },
+  "unassigned": 0,
+  "unit": "reported_observation_value_statistics"
+}

@@ -1,0 +1,743 @@
+{
+  "schema": "EXPERIMENTAL_CSV_SOURCE_LANE_V0_1",
+  "production_authority": false,
+  "root": "${KHMD_EXTERNAL_169BBBECB6}",
+  "output": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1",
+  "started_utc": "2026-10-27T04:10:13+00:00",
+  "inputs": [
+    {
+      "id": "JONGNO_SALE_201101",
+      "path": "${KHMD_EXTERNAL_068C92AF31}",
+      "sha256": "5cf9d2e866e11c5d8df6398785678e2416c50ee6cb16b4dd7960aea1bf87a3dc",
+      "expected_rows": 51,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "거래금액(만원)",
+        "동",
+        "층",
+        "매수자",
+        "매도자",
+        "건축년도",
+        "도로명",
+        "해제사유발생일",
+        "거래유형",
+        "중개사소재지",
+        "등기일자"
+      ],
+      "conditions": {
+        "계약일자": "2011-01-01 ~ 2011-01-31",
+        "실거래구분": "아파트(매매)",
+        "주소구분": "지번주소",
+        "시도": "서울특별시",
+        "시군구": "종로구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "SALE",
+        "province": "서울특별시",
+        "district": "종로구",
+        "date_from": "2011-01-01",
+        "date_to": "2011-01-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_equivalence_v0_1\\input_manifest.json",
+        "sha256": "bfbaaf917250b21545ca75b3defc732bdf66d8992f21c38953d50dc54a6c7121"
+      },
+      "prior_validation": "PRIOR_FOUR_SAMPLE_PARTIAL_MATCH",
+      "prior_API_comparison_scope": "SALE_201101",
+      "selected": true,
+      "selection_reason": "Explicit disjoint pilot scope",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "JONGNO_RENT_201101",
+      "path": "${KHMD_EXTERNAL_AE9B3110D0}",
+      "sha256": "9cc4ba470cda7bb16333105a43d233b9a8c8f5850843d2362a2a4a57f130ab8e",
+      "expected_rows": 123,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2011-01-01 ~ 2011-01-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "지번주소",
+        "시도": "서울특별시",
+        "시군구": "종로구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "서울특별시",
+        "district": "종로구",
+        "date_from": "2011-01-01",
+        "date_to": "2011-01-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_equivalence_v0_1\\input_manifest.json",
+        "sha256": "bfbaaf917250b21545ca75b3defc732bdf66d8992f21c38953d50dc54a6c7121"
+      },
+      "prior_validation": "PRIOR_FOUR_SAMPLE_PARTIAL_MATCH",
+      "prior_API_comparison_scope": "RENT_201101",
+      "selected": true,
+      "selection_reason": "Explicit disjoint pilot scope",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "JONGNO_SALE_202510",
+      "path": "${KHMD_EXTERNAL_F807BF7C8A}",
+      "sha256": "231c573d30394e0812aad772fb38cd0dd201480d485ca5048193c90006eb97f0",
+      "expected_rows": 89,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "거래금액(만원)",
+        "동",
+        "층",
+        "매수자",
+        "매도자",
+        "건축년도",
+        "도로명",
+        "해제사유발생일",
+        "거래유형",
+        "중개사소재지",
+        "등기일자"
+      ],
+      "conditions": {
+        "계약일자": "2025-10-01 ~ 2025-10-31",
+        "실거래구분": "아파트(매매)",
+        "주소구분": "지번주소",
+        "시도": "서울특별시",
+        "시군구": "종로구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "SALE",
+        "province": "서울특별시",
+        "district": "종로구",
+        "date_from": "2025-10-01",
+        "date_to": "2025-10-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_equivalence_v0_1\\input_manifest.json",
+        "sha256": "bfbaaf917250b21545ca75b3defc732bdf66d8992f21c38953d50dc54a6c7121"
+      },
+      "prior_validation": "PRIOR_FOUR_SAMPLE_PARTIAL_MATCH",
+      "prior_API_comparison_scope": "SALE_202510",
+      "selected": true,
+      "selection_reason": "Explicit disjoint pilot scope",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "JONGNO_RENT_202510",
+      "path": "${KHMD_EXTERNAL_92775EB8A3}",
+      "sha256": "646f4a462a67672e910cb5e28d454c7aba12e7314b847ec6787d66402bea98bf",
+      "expected_rows": 197,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2025-10-01 ~ 2025-10-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "지번주소",
+        "시도": "서울특별시",
+        "시군구": "종로구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "서울특별시",
+        "district": "종로구",
+        "date_from": "2025-10-01",
+        "date_to": "2025-10-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_equivalence_v0_1\\input_manifest.json",
+        "sha256": "bfbaaf917250b21545ca75b3defc732bdf66d8992f21c38953d50dc54a6c7121"
+      },
+      "prior_validation": "PRIOR_FOUR_SAMPLE_PARTIAL_MATCH",
+      "prior_API_comparison_scope": "RENT_202510",
+      "selected": false,
+      "selection_reason": "Excluded from analysis: contained by selected Seoul2025 RENT annual; no claim that later snapshot is truth",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "SEOUL_RENT_2025",
+      "path": "${KHMD_EXTERNAL_20A447253D}",
+      "sha256": "fa542183b839126e29579da42c0d9c67f94f67747bbbebca48faa5b465b35117",
+      "expected_rows": 275604,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2025-01-01 ~ 2025-12-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "지번주소",
+        "시도": "서울특별시",
+        "시군구": "전체",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "서울특별시",
+        "district": "전체",
+        "date_from": "2025-01-01",
+        "date_to": "2025-12-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\input_manifest.json",
+        "sha256": "c58570b3c40c8c320c238ddf35b949865fd170367f88eb51ebfd213fedfe20fb"
+      },
+      "prior_validation": "PILOT_PARTIAL",
+      "prior_API_comparison_scope": "Seoul25 districts x12 months",
+      "selected": true,
+      "selection_reason": "Explicit disjoint query scope for this CSV-only run",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "EUNPYEONG_SALE_2011",
+      "path": "${KHMD_EXTERNAL_06542F5416}",
+      "sha256": "6c5d77278f0d3a505d514985078ea84237a9d7915152734065389b2e9e020997",
+      "expected_rows": 1907,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "거래금액(만원)",
+        "동",
+        "층",
+        "매수자",
+        "매도자",
+        "건축년도",
+        "도로명",
+        "해제사유발생일",
+        "거래유형",
+        "중개사소재지",
+        "등기일자"
+      ],
+      "conditions": {
+        "계약일자": "2011-01-01 ~ 2011-12-31",
+        "실거래구분": "아파트(매매)",
+        "주소구분": "도로명주소",
+        "시도": "서울특별시",
+        "시군구": "은평구",
+        "도로명": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "SALE",
+        "province": "서울특별시",
+        "district": "은평구",
+        "date_from": "2011-01-01",
+        "date_to": "2011-12-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\SALE_EUNPYEONG_2011Q1\\qualification.json",
+        "sha256": "aff8a2ee6d8bc2e66a47db72c30f96394e0780c6cc303f71930a46f9c50ae73f"
+      },
+      "prior_validation": "PARTIAL_MATCH",
+      "prior_API_comparison_scope": {
+        "compared_rows": 677,
+        "uncompared_rows": 1230,
+        "sample": "SALE_EUNPYEONG_2011Q1"
+      },
+      "selected": true,
+      "selection_reason": "Explicit disjoint query scope for this CSV-only run",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "GANGNAM_RENT_2021",
+      "path": "${KHMD_EXTERNAL_C7F76E7E29}",
+      "sha256": "bd22159a5cd1a4620ef7fabb6e9dcd1b41c22a5d55acb9fe1c5a2028dbae810e",
+      "expected_rows": 20004,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2021-01-01 ~ 2021-12-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "도로명주소",
+        "시도": "서울특별시",
+        "시군구": "강남구",
+        "도로명": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "서울특별시",
+        "district": "강남구",
+        "date_from": "2021-01-01",
+        "date_to": "2021-12-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\rent_mapping_v0_2\\RENT_GANGNAM_202105_06\\qualification.json",
+        "sha256": "bf6b5ae79974132bf0945465f8d2bd300069f4f92930beff8a5a9bc12b87b934"
+      },
+      "prior_validation": "PARTIAL_MATCH",
+      "prior_API_comparison_scope": {
+        "compared_rows": 3495,
+        "uncompared_rows": 16509,
+        "sample": "RENT_GANGNAM_202105_06"
+      },
+      "selected": true,
+      "selection_reason": "Explicit disjoint query scope for this CSV-only run",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "RENT_43111_201406_07",
+      "path": "${KHMD_EXTERNAL_71B12A9020}",
+      "sha256": "689cc859eb2288f05d7e27082283214b65ce9a940eb789fc55a7bca3e01a1469",
+      "expected_rows": 128,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2014-06-01 ~ 2014-07-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "지번주소",
+        "시도": "충청북도",
+        "시군구": "청주시 상당구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "충청북도",
+        "district": "청주시 상당구",
+        "date_from": "2014-06-01",
+        "date_to": "2014-07-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\cheongju_run_v0_1\\input_manifest.json",
+        "sha256": "535d1927ecf508e57fd029e472b07538b0529375031e508311864fa3871a754d"
+      },
+      "prior_validation": "PARTIAL_MATCH",
+      "prior_API_comparison_scope": "201406,201407; successor jurisdiction, not event-time boundary",
+      "selected": true,
+      "selection_reason": "Explicit disjoint query scope for this CSV-only run",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "RENT_43112_201406_07",
+      "path": "${KHMD_EXTERNAL_0704280874}",
+      "sha256": "67e0d6d61a20368f0d7d30278112b5eb7e5379e4104723bb77c6be6036315d7e",
+      "expected_rows": 378,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2014-06-01 ~ 2014-07-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "지번주소",
+        "시도": "충청북도",
+        "시군구": "청주시 서원구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "충청북도",
+        "district": "청주시 서원구",
+        "date_from": "2014-06-01",
+        "date_to": "2014-07-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\cheongju_run_v0_1\\input_manifest.json",
+        "sha256": "535d1927ecf508e57fd029e472b07538b0529375031e508311864fa3871a754d"
+      },
+      "prior_validation": "PARTIAL_MATCH",
+      "prior_API_comparison_scope": "201406,201407; successor jurisdiction, not event-time boundary",
+      "selected": true,
+      "selection_reason": "Explicit disjoint query scope for this CSV-only run",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "RENT_43113_201406_07",
+      "path": "${KHMD_EXTERNAL_F8616D02A6}",
+      "sha256": "97ecaa09376afa6aeba67790e4371aad1f9671ee7fa9a9bc3b056a425e022abf",
+      "expected_rows": 348,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2014-06-01 ~ 2014-07-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "지번주소",
+        "시도": "충청북도",
+        "시군구": "청주시 흥덕구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "충청북도",
+        "district": "청주시 흥덕구",
+        "date_from": "2014-06-01",
+        "date_to": "2014-07-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\cheongju_run_v0_1\\input_manifest.json",
+        "sha256": "535d1927ecf508e57fd029e472b07538b0529375031e508311864fa3871a754d"
+      },
+      "prior_validation": "PARTIAL_MATCH",
+      "prior_API_comparison_scope": "201406,201407; successor jurisdiction, not event-time boundary",
+      "selected": true,
+      "selection_reason": "Explicit disjoint query scope for this CSV-only run",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    },
+    {
+      "id": "RENT_43114_201406_07",
+      "path": "${KHMD_EXTERNAL_34FAC169A0}",
+      "sha256": "b17e084bd5df7e81cacb4a5d580db29d7f49bc24622d1885f973b7c854410338",
+      "expected_rows": 340,
+      "encoding": "cp949",
+      "columns": [
+        "NO",
+        "시군구",
+        "번지",
+        "본번",
+        "부번",
+        "단지명",
+        "전월세구분",
+        "전용면적(㎡)",
+        "계약년월",
+        "계약일",
+        "보증금(만원)",
+        "월세금(만원)",
+        "층",
+        "건축년도",
+        "도로명",
+        "계약기간",
+        "계약구분",
+        "갱신요구권 사용",
+        "종전계약 보증금(만원)",
+        "종전계약 월세(만원)",
+        "주택유형"
+      ],
+      "conditions": {
+        "계약일자": "2014-06-01 ~ 2014-07-31",
+        "실거래구분": "아파트(전월세)",
+        "주소구분": "지번주소",
+        "시도": "충청북도",
+        "시군구": "청주시 청원구",
+        "읍면동": "전체",
+        "면적": "전체",
+        "금액선택": "전체"
+      },
+      "query": {
+        "family": "RENT",
+        "province": "충청북도",
+        "district": "청주시 청원구",
+        "date_from": "2014-06-01",
+        "date_to": "2014-07-31"
+      },
+      "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+      "download_started_at": null,
+      "download_completed_at": null,
+      "acquisition_time_status": "NOT_PROVIDED_OR_NOT_INDEPENDENTLY_VERIFIED; filename/mtime not used",
+      "source_evidence": {
+        "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\cheongju_run_v0_1\\input_manifest.json",
+        "sha256": "535d1927ecf508e57fd029e472b07538b0529375031e508311864fa3871a754d"
+      },
+      "prior_validation": "PARTIAL_MATCH",
+      "prior_API_comparison_scope": "201406,201407; successor jurisdiction, not event-time boundary",
+      "selected": true,
+      "selection_reason": "Explicit disjoint query scope for this CSV-only run",
+      "spatial_status": "NOT_RUN_SEPARATE_FROM_RAW_INGESTION"
+    }
+  ],
+  "bindings": [
+    {
+      "path": "experiments\\khmd_bulk_csv_equivalence_v0_1\\input_manifest.json",
+      "sha256": "bfbaaf917250b21545ca75b3defc732bdf66d8992f21c38953d50dc54a6c7121"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\input_manifest.json",
+      "sha256": "c58570b3c40c8c320c238ddf35b949865fd170367f88eb51ebfd213fedfe20fb"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\SALE_EUNPYEONG_2011Q1\\qualification.json",
+      "sha256": "aff8a2ee6d8bc2e66a47db72c30f96394e0780c6cc303f71930a46f9c50ae73f"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\rent_mapping_v0_2\\RENT_GANGNAM_202105_06\\qualification.json",
+      "sha256": "bf6b5ae79974132bf0945465f8d2bd300069f4f92930beff8a5a9bc12b87b934"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\cheongju_run_v0_1\\input_manifest.json",
+      "sha256": "535d1927ecf508e57fd029e472b07538b0529375031e508311864fa3871a754d"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\spatial_target_v0_1\\qualification.json",
+      "sha256": "db710cbfb234912bf60aac418265ef507b253a5e052cfefd080981e3337dddf6"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\discrepancy_handoff_v0_1\\REPORT.txt",
+      "sha256": "3d23db429fb4f4cee6565aa795afefee12452a1e270fbe514d50155c8278936d"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\historical_expansion_v0_1\\cheongju_run_v0_1\\REPORT.txt",
+      "sha256": "39ea66e5b550e789a698638dbbf3193aad0b612bf6499658b4bdf9735a903d9f"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\official_evidence.json",
+      "sha256": "975bab7a69f1eeaec5db40e9e4932e3190f3f1a1eb1788e11431db6f6fdee651"
+    },
+    {
+      "path": "src\\khmd_reference_resource_monitor_v0_2.py",
+      "sha256": "4f64dca936010397bb9b1329821d11138a161b1f9521a193928e335108a40e69"
+    },
+    {
+      "path": "metadata\\khmd_nationwide_reference_resource_monitor_contract_v0_2.json",
+      "sha256": "d00ba84f921e9f51f3133e381e1fbc28ffd4f703768428aa4be9e7952cdcfd4d"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\validate_large_csv_v0_3.py",
+      "sha256": "ede8386476f50432f0aafe0502e09d613997e12172af16dc6efb8f3797427ea1"
+    }
+  ],
+  "selection_rule": "EXPLICIT_WHOLE_FILE_SELECTION_WITH_QUERY_OVERLAP_REJECTION; never latest-wins",
+  "resource": {
+    "unchanged_guard": "src/khmd_reference_resource_monitor_v0_2.py",
+    "threshold_bytes": 119537664,
+    "reserve_bytes": 67911680,
+    "sqlite_cache_kib": 4096,
+    "max_sqlite_bytes": 2147483648
+  },
+  "spatial_reference": {
+    "evidence": "spatial_target_v0_1",
+    "groups": 11,
+    "same_grid": 10,
+    "one_side": 1,
+    "reference_date": "2026-09-08",
+    "crs": "EPSG:5186",
+    "grid": "KHMD_GRID_1KM_EPSG5186_V0_1",
+    "bulk_application": "NOT_RUN",
+    "historical_continuity": "UNVERIFIED"
+  }
+}

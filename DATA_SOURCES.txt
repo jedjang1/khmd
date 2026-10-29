@@ -1,0 +1,55 @@
+KHMD 0.0.5 — data attribution, transformations and unresolved interpretations
+
+CODE: Jinhyeok Jang <jedjang1@gmail.com>, author and maintainer (aut, cre).
+The user approved MIT for project-authored code and described independent personal
+research, no company computer use and GPT assistance. MIT does not apply to the
+entire data bundle. Existing external component notices remain applicable.
+
+SPATIAL INPUT: Ministry of Land, Infrastructure and Transport (Republic of Korea),
+distributed through VWorld, "연속지적도형정보" (continuous cadastral geometry),
+official route svcCde=NA / dsId=23, delivery dataset20171128DS00002,
+FULL fileNo4722–4737,16regional objects, reference2026-09-08 (listing2026-09-09).
+https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?svcCde=NA&dsId=23
+Source licence: Creative Commons Attribution2.0 Korea (CC BY2.0 KR).
+https://creativecommons.org/licenses/by/2.0/kr/
+Legal code: https://creativecommons.org/licenses/by/2.0/kr/legalcode
+The exact CCL link was observed on the official product page on2026-10-29.
+Known original provider/title, licence links and notices are retained; original
+licensed rights are not relicensed as MIT. MK:30563 is a different distribution
+product; its NC/ND conditions are not applied to this NA:23 input.
+GIS Building Integrated Information API is not identified as an input here.
+
+TRANSFORMATIONS: KHMD linked addresses to unique parcel candidates, checked valid
+geometry and interior representative points, transformed from the documented
+source CRS to EPSG:5179 using x=easting/y=northing, and assigned the project grid
+KHMD_UTMK_1KM_V1, origin(0,0), projected1,000m squares. It aggregated repeated
+observations by grid, contract quarter and family. Parcel geometries, PNU and
+representative-point coordinates are not distributed. This is reference-based
+research processing, not surveying, official approval, endorsement or warranty.
+It does not establish historical contract-time parcel locations or SGIS/national
+standard-grid identity. Source licence and warranty notices must remain intact.
+
+TRANSACTION INPUT: MOLIT Real Estate Transaction Disclosure System, apartment
+SALE/RENT CSV extracts for contract years2011–2025. Source portal3050988 displays
+unrestricted usage permission and links the actual CSV service:
+https://www.data.go.kr/data/3050988/fileData.do
+https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=
+File SHA, query scope, acquisition-time certainty and source snapshot are retained
+in the public provenance manifests. Unknown acquisition times are not invented.
+These researcher-produced contract-date statistics are not official report-date
+statistics. The service's external-publication guidance has a still-unresolved
+application to this research product; this is separate from general permission.
+
+SCOPE/LIMITS:20,916,100 occurrences =20,403,079 assigned+513,021 unassigned.
+The sparse count panel has571,310 groups; price panels2,158,314 statistic rows.
+Repeated occurrences and163,177 cancellation-date-displayed SALE observations
+remain. RENT ALL overlaps subtypes; no summing these levels. Explicit MONTHLY_RENT
+with monthly amount0 discordance458 is retained. Metric-specific valid N is not a
+unique transaction count. Sparse absence is not zero. Small groups are retained;
+neither complete anonymization nor inability to reconstruct values is asserted.
+Seoul PILOT_PARTIAL, Cheongju PARTIAL_MATCH and unproven population completeness remain.
+
+Remaining interpretations: separate database-maker-rights scope and transaction
+official-statistics guidance. These are not a confirmed publication prohibition,
+agency clearance, or a categorical requirement for extra permission. No new legal
+investigation/inquiry occurred for this metadata release. No external release yet.

@@ -1,0 +1,987 @@
+{
+  "started_utc": "2026-10-27T15:59:50.380776+00:00",
+  "mode": "USER_AUTHORIZED_REMAINING_REGIONS_SEQUENTIAL",
+  "regions": [
+    "세종특별자치시",
+    "대전광역시",
+    "제주특별자치도",
+    "충청북도",
+    "강원특별자치도",
+    "전북특별자치도",
+    "충청남도",
+    "울산광역시",
+    "대구광역시",
+    "인천광역시",
+    "전남광주통합특별시",
+    "경상북도",
+    "경상남도",
+    "경기도",
+    "서울특별시"
+  ],
+  "region_ids": {
+    "세종특별자치시": "R01",
+    "대전광역시": "R02",
+    "제주특별자치도": "R03",
+    "충청북도": "R04",
+    "강원특별자치도": "R05",
+    "전북특별자치도": "R06",
+    "충청남도": "R07",
+    "울산광역시": "R08",
+    "대구광역시": "R09",
+    "인천광역시": "R10",
+    "전남광주통합특별시": "R11",
+    "경상북도": "R12",
+    "경상남도": "R13",
+    "경기도": "R14",
+    "서울특별시": "R15"
+  },
+  "objects": {
+    "NRC_4722": {
+      "reference_region_id": "NRC_4722",
+      "region_name": "서울특별시",
+      "provenance_class": "REUSED_EXISTING_VALIDATED_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4722",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/fileNo_4722/AL_D002_11_20260908.zip",
+      "sha256": "51e403ff6e3e3fe598b521ad3a5a8fadb284df4a4020442c67dfff90eda2c2fc",
+      "bytes": "101354854",
+      "reference_freeze_or_promotion_receipt": "metadata/spatial_reference_pilot_raw_release_freeze_v0_1.json",
+      "evidence_sha256": "0017a0a36f9ceca07c8edafba229bae3290aac5db5b028716f03053aa2208d3c",
+      "acceptance_status": "REUSED_UNCHANGED",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4722}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "896903",
+      "invalid_geometry_count": "266",
+      "file_no": "4722",
+      "existing_sets": [
+        {
+          "set_id": "4722:AL_D002_11_20260908",
+          "members": {
+            ".dbf": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/SEOUL/AL_D002_11_20260908.dbf",
+              "sha256": "f9379597a137fc0bb4118b98cb68c9283b40d87c107944fe13b0ca738c1a6919",
+              "bytes": 462802238
+            },
+            ".shp": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/SEOUL/AL_D002_11_20260908.shp",
+              "sha256": "f0ac4444b21ef97254b48fb732dd069e01ee3f9ce99ff73492a69765060c25b4",
+              "bytes": 199167116
+            },
+            ".shx": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/SEOUL/AL_D002_11_20260908.shx",
+              "sha256": "bcf963d6d10e7e25fe510b236a5944a6ac4019f819f3e51ef29a2b82043d76c6",
+              "bytes": 7175324
+            },
+            ".prj": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/SEOUL/AL_D002_11_20260908.prj",
+              "sha256": "dcfa42cfd392417d954aeb5038d12fdaa32a30879b3f5d611f207c7115dc9e7e",
+              "bytes": 422
+            },
+            ".cpg": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/SEOUL/AL_D002_11_20260908.cpg",
+              "sha256": "cbaec911583c788ca4c65334c9ae53f4c3b9a775aefe890a7e326ae2011ba563",
+              "bytes": 8
+            }
+          },
+          "source_archive_sha256": "51e403ff6e3e3fe598b521ad3a5a8fadb284df4a4020442c67dfff90eda2c2fc",
+          "region": "서울특별시"
+        }
+      ],
+      "members": [
+        "AL_D002_11_20260908.cpg",
+        "AL_D002_11_20260908.dbf",
+        "AL_D002_11_20260908.prj",
+        "AL_D002_11_20260908.shp",
+        "AL_D002_11_20260908.shx"
+      ]
+    },
+    "NRC_4723": {
+      "reference_region_id": "NRC_4723",
+      "region_name": "전남광주통합특별시",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4723",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4723/provider_object.zip",
+      "sha256": "3b03cc0cec0f0d8bb58572dfd82fe8f05ee4eef9f216917e126646b2d4340243",
+      "bytes": "1017594829",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4723.json",
+      "evidence_sha256": "69b8d417c31a18aeff192b645dd75534b974c54c68f87fba24b84746a858ae6b",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4723}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "6307550",
+      "invalid_geometry_count": "3651",
+      "file_no": "4723",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_12_20260908(2).cpg",
+        "AL_D002_12_20260908(2).dbf",
+        "AL_D002_12_20260908(2).prj",
+        "AL_D002_12_20260908(2).shp",
+        "AL_D002_12_20260908(2).shx",
+        "AL_D002_12_20260908(3).cpg",
+        "AL_D002_12_20260908(3).dbf",
+        "AL_D002_12_20260908(3).prj",
+        "AL_D002_12_20260908(3).shp",
+        "AL_D002_12_20260908(3).shx",
+        "AL_D002_12_20260908(4).cpg",
+        "AL_D002_12_20260908(4).dbf",
+        "AL_D002_12_20260908(4).prj",
+        "AL_D002_12_20260908(4).shp",
+        "AL_D002_12_20260908(4).shx",
+        "AL_D002_12_20260908(5).cpg",
+        "AL_D002_12_20260908(5).dbf",
+        "AL_D002_12_20260908(5).prj",
+        "AL_D002_12_20260908(5).shp",
+        "AL_D002_12_20260908(5).shx",
+        "AL_D002_12_20260908(6).cpg",
+        "AL_D002_12_20260908(6).dbf",
+        "AL_D002_12_20260908(6).prj",
+        "AL_D002_12_20260908(6).shp",
+        "AL_D002_12_20260908(6).shx",
+        "AL_D002_12_20260908(7).cpg",
+        "AL_D002_12_20260908(7).dbf",
+        "AL_D002_12_20260908(7).prj",
+        "AL_D002_12_20260908(7).shp",
+        "AL_D002_12_20260908(7).shx",
+        "AL_D002_12_20260908.cpg",
+        "AL_D002_12_20260908.dbf",
+        "AL_D002_12_20260908.prj",
+        "AL_D002_12_20260908.shp",
+        "AL_D002_12_20260908.shx"
+      ]
+    },
+    "NRC_4724": {
+      "reference_region_id": "NRC_4724",
+      "region_name": "부산광역시",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4724",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4724/provider_object.zip",
+      "sha256": "b402fbbd7cb90abd6495826668ffb1e1d5ce45f934f6b294ab539649ebc4479e",
+      "bytes": "91552605",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4724.json",
+      "evidence_sha256": "9259a6b8f33b083f2d8f54a8fee44832b6d067f53e0fb8617aaa4622e8ad4fae",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4724}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "705940",
+      "invalid_geometry_count": "343",
+      "file_no": "4724",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_26_20260908.cpg",
+        "AL_D002_26_20260908.dbf",
+        "AL_D002_26_20260908.prj",
+        "AL_D002_26_20260908.shp",
+        "AL_D002_26_20260908.shx"
+      ]
+    },
+    "NRC_4725": {
+      "reference_region_id": "NRC_4725",
+      "region_name": "대구광역시",
+      "provenance_class": "REUSED_EXISTING_VALIDATED_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4725",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/fileNo_4725/AL_D002_27_20260908.zip",
+      "sha256": "a062f75121d446d74614d59fdd60c9a94279ba18e798b41bb3c0aab3fea832e4",
+      "bytes": "128258072",
+      "reference_freeze_or_promotion_receipt": "metadata/spatial_reference_pilot_raw_release_freeze_v0_1.json",
+      "evidence_sha256": "0017a0a36f9ceca07c8edafba229bae3290aac5db5b028716f03053aa2208d3c",
+      "acceptance_status": "REUSED_UNCHANGED",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4725}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "785263",
+      "invalid_geometry_count": "517",
+      "file_no": "4725",
+      "existing_sets": [
+        {
+          "set_id": "4725:AL_D002_27_20260908",
+          "members": {
+            ".dbf": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/DAEGU/AL_D002_27_20260908.dbf",
+              "sha256": "027c5ce1464a9cfeab323036f2f7751cbdd457282ca1555434dc118e430dc2ec",
+              "bytes": 405195998
+            },
+            ".shp": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/DAEGU/AL_D002_27_20260908.shp",
+              "sha256": "31b078f67d93379d2f43971eb1ccf432b3f8e61ce44913046c8d95448f821354",
+              "bytes": 227082108
+            },
+            ".shx": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/DAEGU/AL_D002_27_20260908.shx",
+              "sha256": "38d983d6a8a2252dd647c7353b7791f1e0e8110e8f4abedd9509268a790d3eea",
+              "bytes": 6282204
+            },
+            ".prj": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/DAEGU/AL_D002_27_20260908.prj",
+              "sha256": "dcfa42cfd392417d954aeb5038d12fdaa32a30879b3f5d611f207c7115dc9e7e",
+              "bytes": 422
+            },
+            ".cpg": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/DAEGU/AL_D002_27_20260908.cpg",
+              "sha256": "cbaec911583c788ca4c65334c9ae53f4c3b9a775aefe890a7e326ae2011ba563",
+              "bytes": 8
+            }
+          },
+          "source_archive_sha256": "a062f75121d446d74614d59fdd60c9a94279ba18e798b41bb3c0aab3fea832e4",
+          "region": "대구광역시"
+        }
+      ],
+      "members": [
+        "AL_D002_27_20260908.cpg",
+        "AL_D002_27_20260908.dbf",
+        "AL_D002_27_20260908.prj",
+        "AL_D002_27_20260908.shp",
+        "AL_D002_27_20260908.shx"
+      ]
+    },
+    "NRC_4726": {
+      "reference_region_id": "NRC_4726",
+      "region_name": "인천광역시",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4726",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4726/provider_object.zip",
+      "sha256": "d027ee22f9388f25804f07554c406570de534e8d4c26895571a69fc23392dbc5",
+      "bytes": "105323939",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4726.json",
+      "evidence_sha256": "8c9e65e7b7ea788ed9d781387090aa2b1b8aac7bc6e2be5aeb78cc9245e95b7f",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4726}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "667724",
+      "invalid_geometry_count": "242",
+      "file_no": "4726",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_28_20260908.cpg",
+        "AL_D002_28_20260908.dbf",
+        "AL_D002_28_20260908.prj",
+        "AL_D002_28_20260908.shp",
+        "AL_D002_28_20260908.shx"
+      ]
+    },
+    "NRC_4727": {
+      "reference_region_id": "NRC_4727",
+      "region_name": "대전광역시",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4727",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4727/provider_object.zip",
+      "sha256": "97a4c67b970b6081d367e944ee8d04d760e7acd9ea3d4327d1a563267f19476d",
+      "bytes": "45582153",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4727.json",
+      "evidence_sha256": "386c6491bb058561baa515fb0c617f2a4cca40722651fa43d0107a3f39b7de02",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4727}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "290840",
+      "invalid_geometry_count": "199",
+      "file_no": "4727",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_30_20260908.cpg",
+        "AL_D002_30_20260908.dbf",
+        "AL_D002_30_20260908.prj",
+        "AL_D002_30_20260908.shp",
+        "AL_D002_30_20260908.shx"
+      ]
+    },
+    "NRC_4728": {
+      "reference_region_id": "NRC_4728",
+      "region_name": "울산광역시",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4728",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4728/provider_object.zip",
+      "sha256": "a05d8bd6ad2c8f29ec0b2f43dafa1c9e75f68c20bf96be1ee022c2f92d567a1f",
+      "bytes": "86961779",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4728.json",
+      "evidence_sha256": "3b3c7ad25283892eca9b0ac6a8ff373170011725d3c4cfeb648416e7ae899d83",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4728}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "510997",
+      "invalid_geometry_count": "323",
+      "file_no": "4728",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_31_20260908.cpg",
+        "AL_D002_31_20260908.dbf",
+        "AL_D002_31_20260908.prj",
+        "AL_D002_31_20260908.shp",
+        "AL_D002_31_20260908.shx"
+      ]
+    },
+    "NRC_4729": {
+      "reference_region_id": "NRC_4729",
+      "region_name": "세종특별자치시",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4729",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4729/provider_object.zip",
+      "sha256": "e2e452da32aa89891e16af1e38069affd999626f7043ca583a1973cbda5ccd2d",
+      "bytes": "38935458",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4729.json",
+      "evidence_sha256": "6dcee88bd6d950d00e62391c08b26a587ac8a0a8264b24630110802f6b532ab5",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4729}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "207960",
+      "invalid_geometry_count": "130",
+      "file_no": "4729",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_36_20260908.cpg",
+        "AL_D002_36_20260908.dbf",
+        "AL_D002_36_20260908.prj",
+        "AL_D002_36_20260908.shp",
+        "AL_D002_36_20260908.shx"
+      ]
+    },
+    "NRC_4730": {
+      "reference_region_id": "NRC_4730",
+      "region_name": "경기도",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4730",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4730/provider_object.zip",
+      "sha256": "e4ec08c9b260109103b4d14bf3ebfd4ee1051832fe4ae809d782e6db28d1c48a",
+      "bytes": "812145786",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4730.json",
+      "evidence_sha256": "6773f0722aeafff951ad59716f772a984a2f52888d508383029945a3ec674934",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "DOCUMENTED_ROW_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4730}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "5211685",
+      "invalid_geometry_count": "1940",
+      "file_no": "4730",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_41_20260908(2).cpg",
+        "AL_D002_41_20260908(2).dbf",
+        "AL_D002_41_20260908(2).prj",
+        "AL_D002_41_20260908(2).shp",
+        "AL_D002_41_20260908(2).shx",
+        "AL_D002_41_20260908(3).cpg",
+        "AL_D002_41_20260908(3).dbf",
+        "AL_D002_41_20260908(3).prj",
+        "AL_D002_41_20260908(3).shp",
+        "AL_D002_41_20260908(3).shx",
+        "AL_D002_41_20260908(4).cpg",
+        "AL_D002_41_20260908(4).dbf",
+        "AL_D002_41_20260908(4).prj",
+        "AL_D002_41_20260908(4).shp",
+        "AL_D002_41_20260908(4).shx",
+        "AL_D002_41_20260908(5).cpg",
+        "AL_D002_41_20260908(5).dbf",
+        "AL_D002_41_20260908(5).prj",
+        "AL_D002_41_20260908(5).shp",
+        "AL_D002_41_20260908(5).shx",
+        "AL_D002_41_20260908(6).cpg",
+        "AL_D002_41_20260908(6).dbf",
+        "AL_D002_41_20260908(6).prj",
+        "AL_D002_41_20260908(6).shp",
+        "AL_D002_41_20260908(6).shx",
+        "AL_D002_41_20260908.cpg",
+        "AL_D002_41_20260908.dbf",
+        "AL_D002_41_20260908.prj",
+        "AL_D002_41_20260908.shp",
+        "AL_D002_41_20260908.shx"
+      ]
+    },
+    "NRC_4731": {
+      "reference_region_id": "NRC_4731",
+      "region_name": "충청북도",
+      "provenance_class": "REUSED_EXISTING_VALIDATED_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4731",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/fileNo_4731/AL_D002_43_20260908.zip",
+      "sha256": "a4cf588497326a1eae11c50052c72b1a76fb9be1eeb7f368e7b8ef58e10768f9",
+      "bytes": "448496528",
+      "reference_freeze_or_promotion_receipt": "metadata/spatial_reference_pilot_raw_release_freeze_v0_1.json",
+      "evidence_sha256": "0017a0a36f9ceca07c8edafba229bae3290aac5db5b028716f03053aa2208d3c",
+      "acceptance_status": "REUSED_UNCHANGED",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4731}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "2415439",
+      "invalid_geometry_count": "1815",
+      "file_no": "4731",
+      "existing_sets": [
+        {
+          "set_id": "4731:AL_D002_43_20260908",
+          "members": {
+            ".dbf": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908.dbf",
+              "sha256": "44a4aaaffaf58550a10a8d245baacec1b73585a86c4a6e2436678de5056c1ad2",
+              "bytes": 516000290
+            },
+            ".shp": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908.shp",
+              "sha256": "97baeda4e4dbe36d9f8169f79d1117779f7e7ffa391394b2d5cd495d6a262bb7",
+              "bytes": 297352508
+            },
+            ".shx": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908.shx",
+              "sha256": "1acfe5e4e5aa95e016e9022d3b2c106d724b23092e3450f11e5b6246e43abed0",
+              "bytes": 8000100
+            },
+            ".prj": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908.prj",
+              "sha256": "dcfa42cfd392417d954aeb5038d12fdaa32a30879b3f5d611f207c7115dc9e7e",
+              "bytes": 422
+            },
+            ".cpg": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908.cpg",
+              "sha256": "cbaec911583c788ca4c65334c9ae53f4c3b9a775aefe890a7e326ae2011ba563",
+              "bytes": 8
+            }
+          },
+          "source_archive_sha256": "a4cf588497326a1eae11c50052c72b1a76fb9be1eeb7f368e7b8ef58e10768f9",
+          "region": "충청북도"
+        },
+        {
+          "set_id": "4731:AL_D002_43_20260908(2)",
+          "members": {
+            ".dbf": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(2).dbf",
+              "sha256": "65348c6619e000773ba8d4afc18d3889c94182752e1e4c6c8665005c83edc14a",
+              "bytes": 516000290
+            },
+            ".shp": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(2).shp",
+              "sha256": "6769829bc1cfc24971e3be8d30b3603b54a4a826cc9d55b424de2a9690db3dfd",
+              "bytes": 331079428
+            },
+            ".shx": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(2).shx",
+              "sha256": "2b9e2c7fdfb7f396195735fc7ab1621f195d016c0ecbdd6ed854c953a9058be0",
+              "bytes": 8000100
+            },
+            ".prj": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(2).prj",
+              "sha256": "dcfa42cfd392417d954aeb5038d12fdaa32a30879b3f5d611f207c7115dc9e7e",
+              "bytes": 422
+            },
+            ".cpg": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(2).cpg",
+              "sha256": "cbaec911583c788ca4c65334c9ae53f4c3b9a775aefe890a7e326ae2011ba563",
+              "bytes": 8
+            }
+          },
+          "source_archive_sha256": "a4cf588497326a1eae11c50052c72b1a76fb9be1eeb7f368e7b8ef58e10768f9",
+          "region": "충청북도"
+        },
+        {
+          "set_id": "4731:AL_D002_43_20260908(3)",
+          "members": {
+            ".dbf": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(3).dbf",
+              "sha256": "5241d474780de362174395b33b486ecc5d090168b7d8fbe8f30d6a87381368de",
+              "bytes": 214366814
+            },
+            ".shp": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(3).shp",
+              "sha256": "a87ed6e567934e819e381164e17e4479e72b86a5fa36f40e874bbaee0de27f64",
+              "bytes": 134491980
+            },
+            ".shx": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(3).shx",
+              "sha256": "3079ea4be71b819b5a2ed62fa790e86877dbc87ad8433c9d30413fe5dedccb0d",
+              "bytes": 3323612
+            },
+            ".prj": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(3).prj",
+              "sha256": "dcfa42cfd392417d954aeb5038d12fdaa32a30879b3f5d611f207c7115dc9e7e",
+              "bytes": 422
+            },
+            ".cpg": {
+              "path": "${PROJECT_ROOT}/data/interim/reference_extracted/cadastral/CADASTRAL_NA23_20260908_PILOT_V0_4/CHUNGBUK/AL_D002_43_20260908(3).cpg",
+              "sha256": "cbaec911583c788ca4c65334c9ae53f4c3b9a775aefe890a7e326ae2011ba563",
+              "bytes": 8
+            }
+          },
+          "source_archive_sha256": "a4cf588497326a1eae11c50052c72b1a76fb9be1eeb7f368e7b8ef58e10768f9",
+          "region": "충청북도"
+        }
+      ],
+      "members": [
+        "AL_D002_43_20260908(2).cpg",
+        "AL_D002_43_20260908(2).dbf",
+        "AL_D002_43_20260908(2).prj",
+        "AL_D002_43_20260908(2).shp",
+        "AL_D002_43_20260908(2).shx",
+        "AL_D002_43_20260908(3).cpg",
+        "AL_D002_43_20260908(3).dbf",
+        "AL_D002_43_20260908(3).prj",
+        "AL_D002_43_20260908(3).shp",
+        "AL_D002_43_20260908(3).shx",
+        "AL_D002_43_20260908.cpg",
+        "AL_D002_43_20260908.dbf",
+        "AL_D002_43_20260908.prj",
+        "AL_D002_43_20260908.shp",
+        "AL_D002_43_20260908.shx"
+      ]
+    },
+    "NRC_4732": {
+      "reference_region_id": "NRC_4732",
+      "region_name": "충청남도",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4732",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4732/provider_object.zip",
+      "sha256": "824db657e9c9be93c7a6980140f6eab8a73a0268d7476bb60047a9ba49865a97",
+      "bytes": "630011340",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4732.json",
+      "evidence_sha256": "96d488516d6c8a235c61e37340b347d29bb17cd2e38f06bdacb161d7004d3564",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "DOCUMENTED_ROW_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4732}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "3775096",
+      "invalid_geometry_count": "2472",
+      "file_no": "4732",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_44_20260908(2).cpg",
+        "AL_D002_44_20260908(2).dbf",
+        "AL_D002_44_20260908(2).prj",
+        "AL_D002_44_20260908(2).shp",
+        "AL_D002_44_20260908(2).shx",
+        "AL_D002_44_20260908(3).cpg",
+        "AL_D002_44_20260908(3).dbf",
+        "AL_D002_44_20260908(3).prj",
+        "AL_D002_44_20260908(3).shp",
+        "AL_D002_44_20260908(3).shx",
+        "AL_D002_44_20260908(4).cpg",
+        "AL_D002_44_20260908(4).dbf",
+        "AL_D002_44_20260908(4).prj",
+        "AL_D002_44_20260908(4).shp",
+        "AL_D002_44_20260908(4).shx",
+        "AL_D002_44_20260908.cpg",
+        "AL_D002_44_20260908.dbf",
+        "AL_D002_44_20260908.prj",
+        "AL_D002_44_20260908.shp",
+        "AL_D002_44_20260908.shx"
+      ]
+    },
+    "NRC_4733": {
+      "reference_region_id": "NRC_4733",
+      "region_name": "경상북도",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4733",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4733/provider_object.zip",
+      "sha256": "1cba668081ed69760019a0f7d77befa791a8bda4f60aa8570238cf70bccc1594",
+      "bytes": "1077225391",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4733.json",
+      "evidence_sha256": "6a6660b2deeab417833edf84ef5046a18580fa69acdfd4addd427eb3994d7207",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4733}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "5733851",
+      "invalid_geometry_count": "4621",
+      "file_no": "4733",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_47_20260908(2).cpg",
+        "AL_D002_47_20260908(2).dbf",
+        "AL_D002_47_20260908(2).prj",
+        "AL_D002_47_20260908(2).shp",
+        "AL_D002_47_20260908(2).shx",
+        "AL_D002_47_20260908(3).cpg",
+        "AL_D002_47_20260908(3).dbf",
+        "AL_D002_47_20260908(3).prj",
+        "AL_D002_47_20260908(3).shp",
+        "AL_D002_47_20260908(3).shx",
+        "AL_D002_47_20260908(4).cpg",
+        "AL_D002_47_20260908(4).dbf",
+        "AL_D002_47_20260908(4).prj",
+        "AL_D002_47_20260908(4).shp",
+        "AL_D002_47_20260908(4).shx",
+        "AL_D002_47_20260908(5).cpg",
+        "AL_D002_47_20260908(5).dbf",
+        "AL_D002_47_20260908(5).prj",
+        "AL_D002_47_20260908(5).shp",
+        "AL_D002_47_20260908(5).shx",
+        "AL_D002_47_20260908(6).cpg",
+        "AL_D002_47_20260908(6).dbf",
+        "AL_D002_47_20260908(6).prj",
+        "AL_D002_47_20260908(6).shp",
+        "AL_D002_47_20260908(6).shx",
+        "AL_D002_47_20260908.cpg",
+        "AL_D002_47_20260908.dbf",
+        "AL_D002_47_20260908.prj",
+        "AL_D002_47_20260908.shp",
+        "AL_D002_47_20260908.shx"
+      ]
+    },
+    "NRC_4734": {
+      "reference_region_id": "NRC_4734",
+      "region_name": "경상남도",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4734",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4734/provider_object.zip",
+      "sha256": "ca90289f8f818e8233660268e241f713a2dff9fb949dba1e18a22ec98242c492",
+      "bytes": "835776486",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4734.json",
+      "evidence_sha256": "3946dd86e1e935cd0d52d4d60937a239ae409954d5f463ebdadc1dccf5cef829",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4734}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "4833198",
+      "invalid_geometry_count": "5025",
+      "file_no": "4734",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_48_20260908(2).cpg",
+        "AL_D002_48_20260908(2).dbf",
+        "AL_D002_48_20260908(2).prj",
+        "AL_D002_48_20260908(2).shp",
+        "AL_D002_48_20260908(2).shx",
+        "AL_D002_48_20260908(3).cpg",
+        "AL_D002_48_20260908(3).dbf",
+        "AL_D002_48_20260908(3).prj",
+        "AL_D002_48_20260908(3).shp",
+        "AL_D002_48_20260908(3).shx",
+        "AL_D002_48_20260908(4).cpg",
+        "AL_D002_48_20260908(4).dbf",
+        "AL_D002_48_20260908(4).prj",
+        "AL_D002_48_20260908(4).shp",
+        "AL_D002_48_20260908(4).shx",
+        "AL_D002_48_20260908(5).cpg",
+        "AL_D002_48_20260908(5).dbf",
+        "AL_D002_48_20260908(5).prj",
+        "AL_D002_48_20260908(5).shp",
+        "AL_D002_48_20260908(5).shx",
+        "AL_D002_48_20260908.cpg",
+        "AL_D002_48_20260908.dbf",
+        "AL_D002_48_20260908.prj",
+        "AL_D002_48_20260908.shp",
+        "AL_D002_48_20260908.shx"
+      ]
+    },
+    "NRC_4735": {
+      "reference_region_id": "NRC_4735",
+      "region_name": "제주특별자치도",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4735",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4735/provider_object.zip",
+      "sha256": "d05b88101ba41a09e1e1295ef65f90b067db238bb272fba3e83102cca9cb4f32",
+      "bytes": "148817346",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4735.json",
+      "evidence_sha256": "a9193e919373c3a10c17c3a1c092b36562dafe266da24ee52b6c70ff5402e8d9",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4735}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "887267",
+      "invalid_geometry_count": "1904",
+      "file_no": "4735",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_50_20260908.cpg",
+        "AL_D002_50_20260908.dbf",
+        "AL_D002_50_20260908.prj",
+        "AL_D002_50_20260908.shp",
+        "AL_D002_50_20260908.shx"
+      ]
+    },
+    "NRC_4736": {
+      "reference_region_id": "NRC_4736",
+      "region_name": "강원특별자치도",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4736",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4736/provider_object.zip",
+      "sha256": "ec86aebed7330cfa9f206b62b2aeccce76d49bd8a0d68b9981c0ded4f23c7450",
+      "bytes": "433946116",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4736.json",
+      "evidence_sha256": "f2b16fc1ff688d1074b1b898fd86e6613c71a7262c51b397a24578b93d9fb0a7",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4736}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "2758377",
+      "invalid_geometry_count": "1987",
+      "file_no": "4736",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_51_20260908(2).cpg",
+        "AL_D002_51_20260908(2).dbf",
+        "AL_D002_51_20260908(2).prj",
+        "AL_D002_51_20260908(2).shp",
+        "AL_D002_51_20260908(2).shx",
+        "AL_D002_51_20260908(3).cpg",
+        "AL_D002_51_20260908(3).dbf",
+        "AL_D002_51_20260908(3).prj",
+        "AL_D002_51_20260908(3).shp",
+        "AL_D002_51_20260908(3).shx",
+        "AL_D002_51_20260908.cpg",
+        "AL_D002_51_20260908.dbf",
+        "AL_D002_51_20260908.prj",
+        "AL_D002_51_20260908.shp",
+        "AL_D002_51_20260908.shx"
+      ]
+    },
+    "NRC_4737": {
+      "reference_region_id": "NRC_4737",
+      "region_name": "전북특별자치도",
+      "provenance_class": "NEWLY_PROMOTED_MANUAL_REFERENCE",
+      "official_provider": "국토교통부/VWorld",
+      "product_id": "NA:23",
+      "object_identity": "NA:23/20171128DS00002/fileNo_4737",
+      "snapshot": "2026-09-08",
+      "raw_path": "data/raw_reference/cadastral/CADASTRAL_NA23_20260908_NATIONAL_V0_1/fileNo_4737/provider_object.zip",
+      "sha256": "a041893f51c7348d1bb13af971ce71e46a51bba9c9880e1a9a2dc327b8f6e370",
+      "bytes": "616928820",
+      "reference_freeze_or_promotion_receipt": "metadata/khmd_nationwide_manual_reference_raw_promotion_v0_2/NATIONAL_NA23_4737.json",
+      "evidence_sha256": "68b1084e027dc967f8bea855a0250ac6e1724c0fee31e5a3a2eaa949c5bc4995",
+      "acceptance_status": "VALID_RAW_BYTE_PROMOTION",
+      "row_exception_status": "NO_KNOWN_REGION_CODE_EXCEPTION",
+      "exception_PNUs": "${KHMD_EXTERNAL_EXCEPTION_PNUS_NRC_4737}",
+      "geometry_qa_status": "PASS_OBSERVABILITY_INVALID_SOURCE_GEOMETRIES_RETAINED",
+      "total_geometry_rows": "3886613",
+      "invalid_geometry_count": "2015",
+      "file_no": "4737",
+      "existing_sets": [],
+      "members": [
+        "AL_D002_52_20260908(2).cpg",
+        "AL_D002_52_20260908(2).dbf",
+        "AL_D002_52_20260908(2).prj",
+        "AL_D002_52_20260908(2).shp",
+        "AL_D002_52_20260908(2).shx",
+        "AL_D002_52_20260908(3).cpg",
+        "AL_D002_52_20260908(3).dbf",
+        "AL_D002_52_20260908(3).prj",
+        "AL_D002_52_20260908(3).shp",
+        "AL_D002_52_20260908(3).shx",
+        "AL_D002_52_20260908(4).cpg",
+        "AL_D002_52_20260908(4).dbf",
+        "AL_D002_52_20260908(4).prj",
+        "AL_D002_52_20260908(4).shp",
+        "AL_D002_52_20260908(4).shx",
+        "AL_D002_52_20260908.cpg",
+        "AL_D002_52_20260908.dbf",
+        "AL_D002_52_20260908.prj",
+        "AL_D002_52_20260908.shp",
+        "AL_D002_52_20260908.shx"
+      ]
+    }
+  },
+  "prefix_objects": {
+    "11": [
+      "NRC_4722"
+    ],
+    "12": [
+      "NRC_4723"
+    ],
+    "26": [
+      "NRC_4724"
+    ],
+    "27": [
+      "NRC_4725"
+    ],
+    "28": [
+      "NRC_4726"
+    ],
+    "30": [
+      "NRC_4727"
+    ],
+    "31": [
+      "NRC_4728"
+    ],
+    "36": [
+      "NRC_4729"
+    ],
+    "41": [
+      "NRC_4730"
+    ],
+    "43": [
+      "NRC_4731"
+    ],
+    "44": [
+      "NRC_4732"
+    ],
+    "47": [
+      "NRC_4733"
+    ],
+    "48": [
+      "NRC_4734"
+    ],
+    "50": [
+      "NRC_4735"
+    ],
+    "51": [
+      "NRC_4736"
+    ],
+    "52": [
+      "NRC_4737"
+    ]
+  },
+  "routing_basis": "Inherited exact legal codes/current or approved historical-name bridge -> validated member code prefix; never query province -> historical boundary",
+  "index_path": "data/interim/rent_k2v2_route_audit_v0_1/k2v2_reference.sqlite",
+  "bridge_config": "experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/sample_config.json",
+  "exceptions": "metadata/khmd_nationwide_reference_row_exception_registry_v0_1.csv",
+  "captured_runtime_root": "internal/runtime_captures/khmd_nationwide_v0_1/QGIS_338_REFERENCE_VALIDATION_40657c8b4f9e98319cf2",
+  "code_bindings": [
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_national_5179_v0_1/pipeline.py",
+      "sha256": "091c21a097c78d4b7b19f75ebc2c527c59cd11e7f7eae60466fb7316ccb3a50d"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_national_5179_v0_1/prepare.py",
+      "sha256": "78b611206bfdd6574db8003cbe984724f120bc96f3f213180e1de8d1b316f24d"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/grid.py",
+      "sha256": "783a254f1c5a01ab68bae14b7a2384d1c093a58a4759ae027c872351255aeded"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/grid_policy.json",
+      "sha256": "2d1b37606e63c82dce7c7ae62bdac30299f059f1ab101f33dd77a8996b8f5ef8"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/demand.py",
+      "sha256": "991ed9162a67c79f22d1cf116df29ddb3e30e654d93e805d21c60d8fc9bf9eb4"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_v0_4.py",
+      "sha256": "aaff8e5a8abd90f4bf1a1491d5599d149da7bf627ecad996878728908ef0bea9"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/bridge.py",
+      "sha256": "b4fd8688502698097ea896ff1ac11cab88b0dba926c306a275955fcfec7acdd2"
+    },
+    {
+      "path": "${PROJECT_ROOT}/src/spatial_representation_inputs_v0_1.py",
+      "sha256": "021e6d6d501702c385ce12b50a254b3227fef56e76c514cfb09c94b4a83e32e0"
+    },
+    {
+      "path": "${PROJECT_ROOT}/src/khmd_reference_resource_monitor_v0_2.py",
+      "sha256": "4f64dca936010397bb9b1329821d11138a161b1f9521a193928e335108a40e69"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_nationwide_reference_resource_monitor_contract_v0_2.json",
+      "sha256": "d00ba84f921e9f51f3133e381e1fbc28ffd4f703768428aa4be9e7952cdcfd4d"
+    }
+  ],
+  "input_bindings": [
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_nationwide_cadastral_reference_object_registry_v0_1.csv",
+      "sha256": "aea7b989e1b916293a04df476cc685041e607ebe7edc2ded511b6fa44ad4b729"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_nationwide_reference_row_exception_registry_v0_1.csv",
+      "sha256": "f2894c39f9a2afbbb5d4d0a38b77e26064bcedfe42ca47f0b8392cc624ecbe41"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_nationwide_reference_region_validation_policy_v0_3.json",
+      "sha256": "b8202cc913effa944f84f3c884755b55097474860fd7795246efc0c3238a9d4a"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_nationwide_reference_cross_object_pnu_uniqueness_summary_v0_1.json",
+      "sha256": "391340ceb9bc4f34655d3f09ef0143cd99cb19f8b8c3d096152ae259423eb774"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/rent_k2v2_reference_materialization_v0_1.json",
+      "sha256": "50441d2af8e1f74ff9b4ba46c0f5441577204e2edb1b8621d888ee04e678d5db"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/sample_config.json",
+      "sha256": "a8fc10e0ac4623888063822cb2d85eb3d2c2e9446732e38f490679931dd16add"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_first_batch_parcel_spatial_crosswalk_manifest_v0_2.json",
+      "sha256": "e5511ae6ea871a4a3c7f22b6f78c6e62197dc2075b5530b1193507f18b9c29cf"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/khmd_first_batch_transaction_spatial_lookup_v0_1.sqlite",
+      "sha256": "cc3fc98c615504e5498af1fe582b3c86f673cfc74e8d90fda97b1dbcc80ced94"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/manual_receipt_remaining86_v0_1/runs/receipt_20261027T140451_660823Z/analysis_release_manifest.json",
+      "sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/national_demand/final_manifest.json",
+      "sha256": "8c12f8713ce2b5c04b55c7238727c2bec82241613ae4a1f87b6f3cc5dc6fcad1"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_3/busan_run/final_manifest.json",
+      "sha256": "7d7f5ce1286946b317022da987de5eae2be5619c9b37fc8169219085e598ac3a"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_run_v0_4/generated_points.sqlite",
+      "sha256": "3bb4de954a4eba42cf607fffae83a8b6c6d91aa8ee84301b942bdf29cd010879"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/cadastral_na23_daegu_extraction_manifest_v0_1.json",
+      "sha256": "a58a1d7bd07f5983b2bf579926ac41013bc00c97a60ccc9b7413e702e417c038"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/cadastral_na23_seoul_extraction_manifest_v0_1.json",
+      "sha256": "d67c03a0ff8690802cb6fbd85c52e534d47ac6adb49a54d77f829c899cd0f491"
+    },
+    {
+      "path": "${PROJECT_ROOT}/metadata/cadastral_na23_chungbuk_extraction_manifest_v0_1.json",
+      "sha256": "33d89dcf2536b9deef3739b26f58477484f2fd96a1c3f02a00233f789fa609d3"
+    },
+    {
+      "path": "${PROJECT_ROOT}/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/national_demand/demand.sqlite",
+      "sha256": "247d26503e04466b2a5695d826712e90f0adfa99e82b953060b29d1f84f1341e"
+    },
+    {
+      "path": "${PROJECT_ROOT}/data/interim/rent_k2v2_route_audit_v0_1/k2v2_reference.sqlite",
+      "sha256": "56fd4fc4e9148c09b8ca864bea92f623812801b4722e89bd447c2f8b5b08416a"
+    }
+  ],
+  "expected_remaining": 19588294,
+  "expected_national": 20916100,
+  "grid_version": "KHMD_UTMK_1KM_V1"
+}

@@ -1,0 +1,69 @@
+{
+  "package_code_changed": false,
+  "data_changed": false,
+  "previous_validation": "historical evidence IDs in validation_evidence.json",
+  "current_validation": "publication_validation.json",
+  "changed_files": [
+    {
+      "path": "metadata/validation_summary.json",
+      "before_sha256": "1988ca71b8b5b0c52e58c8e5ed180d4aece880822e1f916f4cb653c00c4d5980",
+      "after_sha256": "de87fe2415a36551ac7f07c5b70047423741a6210ccbdb8e320b20c0d32fa864",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "tools/Run-Local.ps1",
+      "before_sha256": "37f4077958522733c8872336c4b1993f32eee5c4d491e25717215682e49f49c3",
+      "after_sha256": "bdbdb5ac34fcaac855b1ec8981fb77ffa96d1655976363ad49136e953ac7b8c0",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "tools/run_local.py",
+      "before_sha256": "44f7c93a049a50bf28499716047fade711227d93557f3a4cc8fa7d05bc147088",
+      "after_sha256": "4a15b138e2f148a4b3f757993f3e930e131ebcb4c0741180162f4821a0c984e8",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "construction/khmd_construction_code_candidate_v0_1/config_templates/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_name_normalization_v0_1/config.json",
+      "before_sha256": "e15fa4f77a6caca499186e541d0ad2532219b0a9171568aaaf78139049d7d7fc",
+      "after_sha256": "3a7fff081ab42dd6317c769f407a013688e2ff44e33bc67f1c2c7c688ea9c898",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "construction/khmd_construction_code_candidate_v0_1/config_templates/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_national_5179_v0_1/config.json",
+      "before_sha256": "7671244bc65195d07614994b06865e21fcfe27d0908ceb1a2c69a169e121a072",
+      "after_sha256": "9d45eaa23eba0aa7624aa3553b33a40f5484554e669deb2227375ea96f48e176",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_v0_4.py",
+      "before_sha256": "410dcf8ead173b8e9971097b8380d6d2a944fcf35198c6cfce763487a9578c7c",
+      "after_sha256": "6de333f894e62b952ce3833a02ad5c14b83b8048351c373f6d2ec247585c3329",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "construction/khmd_construction_code_candidate_v0_2/code_dependencies.json",
+      "before_sha256": "9c76d76f604aa49aefa2bb1f056c6fb192c73f4f7c81e6903fd588308fdbda12",
+      "after_sha256": "c0d21286c9131029a685de6b748f870c1a545ac2a35eed607a02105cadc6ab5e",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "construction/khmd_construction_code_candidate_v0_2/run_stage.py",
+      "before_sha256": "f414274eecbaeea3b978fa2b03c05570388e19e2428690762db24bd80914187c",
+      "after_sha256": "69df6bfaf0c497b77c0033563bf3451e2dfd3bdd236a5db891a40533543760a9",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "construction/khmd_construction_code_candidate_v0_2/runtime.py",
+      "before_sha256": "461e4a444b983579b5f1b46cc7fd2a4cde6776430950cbad7cbdc7bc6ad5bcc3",
+      "after_sha256": "d7f2af8693ad8be85c8d5727d52778ca63eb41b467b90f0776a4382c0905b3b5",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    },
+    {
+      "path": "construction/khmd_construction_code_candidate_v0_2/validate_links.py",
+      "before_sha256": "83cfc6d63911f76349c816e3df19b4fdd9d09f6c6680ab8f25d3d1c059ee0b5f",
+      "after_sha256": "4c0eb05d899189cba8cf4a37265cc0da0685afdc6839004ed75c849920607e48",
+      "reason": "public copy: paths/output location/module-origin audit/externalized literal or publication notice only"
+    }
+  ],
+  "binary_omission": "Windows ZIP/binary-install tools/provenance excluded; local originals preserved"
+}

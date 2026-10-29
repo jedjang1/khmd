@@ -1,0 +1,19 @@
+Package: khmd
+Title: Read Explicit CSV Observation Releases for Housing Research
+Version: 0.0.5
+Authors@R: person("Jinhyeok", "Jang", role = c("aut", "cre"), email = "jedjang1@gmail.com")
+Description: Opens explicit CSV source release manifests and reads external
+    SQLite observation stores without rewriting source data. Provides bounded
+    retrieval, chunk callbacks, provenance inspection and occurrence counts.
+    Reads separately versioned sparse grid observation panels and query-region
+    assignment quality denominators with explicit source and grid bindings.
+    Reads exact reported-value price and rent descriptive statistics with
+    metric-specific valid denominators and explicit rental subtype levels.
+    Preserves raw values and observability states and does not assert unique
+    transaction identity, historical spatial boundaries or population completeness.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.2.0)
+Imports: DBI, RSQLite (>= 2.2.17), jsonlite, digest
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3

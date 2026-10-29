@@ -1,0 +1,34 @@
+External inputs for the V2 handoffs (not included)
+
+These are JSON configuration templates, NOT a command to start national processing.
+All file paths are resolved relative to the configuration file. Every input requires role, schema, source, version, reference_time, acquisition_time_status. UNKNOWN is an explicit observation state; null is unfinished configuration. expected_sha256 is checked when supplied. If deliberately omitted for a genuinely new file, the binder streams and records its new hash as HASH_RECORDED_THIS_BINDING, not a previous verification. Scope SYNTHETIC never supplies an EXTERNAL stage. No old status or SHA is copied onto new input bytes.
+
+1 BUSAN
+- spatial: committed geometry SQLite, meta(binding), results(address_id,status,n,payload).
+- geometry_config + grid_policy: the exact producer inputs; checkpoint meta equals digest of their actual SHA pair.
+- candidates: key_results and candidates SQLite; candidate_input, candidate_manifest, candidate_publication and candidate_completion are the existing supervised candidate-publication contract. Preserve actual candidate counts, occurrence weights, DBF row SHA, PNU/ordinal identity.
+- geometry_completion: actual COMPLETE supervisor + BUSAN_GEOMETRY_CHECKPOINT_READY result with database/config/policy/candidate SHA. Old ATTACH failure is not required or accepted as this new successful receipt.
+- policy_completion and regression_completion: genuine successful policy/restart tests, with policy SHA. Prior algorithm evidence is not input-data verification.
+- demand: files(sha,family,query_json,input_rows,complete,province), weights(file_sha,key_id,quarter,row_status,n), from the selected release.
+- EXTERNAL scope remains the documented 30 cells / 5,120 keys / 1,327,806 observations. Changing these is a separate scope change, not this adapter's behavior.
+
+2 GUJI SEED
+- genuine completed name-normalization national manifest + national.sqlite; sources(region,input,assigned,unassigned,manifest_sha) pins each actual regional manifest.
+- region:<name> and region_manifest:<name> for EVERY non-Busan region; busan_spatial plus region_manifest:부산광역시. List cfg.regions explicitly, excluding Busan. The national source SHA -> regional manifest -> regional SQLite chain is checked. Unchanged regions may correctly point to the earlier national directory; no forced copy to the normalization directory.
+- mapping: normalization.sqlite mapping(id,province,n,source,lot,reason,...) from that baseline.
+- demand: existing keys/files/weights, not reparsed CSV.
+- legal_codes: CP949 official table containing all 15 old/new Guji ri rows; official_change: UTF-8 text extracted from the corresponding official HWPX, with matching old/new suffix codes and 20260930 dates.
+- Record the original official document source, version and extract provenance in descriptors. The synthetic test table is NOT official evidence and cannot be substituted.
+- Reference date 2026-09-08; change effective 2026-09-30. Effective date is not a contract-date filter.
+- Legacy external scope 47,676 keys / 20,916,100 observations; 109 selected keys = 40 residual + 60 normalization audit + 9 Guji; Guji observations 8,629. The exact legacy selection algorithm is retained.
+
+3 GUJI PREPARE
+- seed_manifest, seed_database, seed_crosswalk are genuine outputs of the preceding guarded seed stage, not hand-created status JSON.
+- demand/mapping and parameters must equal the seed binding. Inputs are immutable; prepare copies the small seed database to a new work location.
+- members: sets_by_id with exact set_id/member paths/SHA; parcel_index with parcels_K2V2 and parcels(set_id,row_ordinal,pnu,a2,jibun).
+- Every member file in the members manifest and every selected source_db is explicitly SHA-bound. Add dbf:<set>, shp:<set>, prj:<set>, etc. as applicable; no directory-recursive input discovery.
+- region:<name>, base_region:<name> for selected source/fallback candidate databases; Busan selected residuals also require busan_candidates and busan_extraction with the actual source DBF stem. Example roles are not a complete regional enumeration.
+- Actual DBF bytes are read at the pinned ordinal; A1/PNU, A2/old code and A4/exact lot must agree. No guessed address, code-prefix substitution or geometry repair.
+- PREPARED is candidate readiness only, NOT TARGET_AUDIT_COMPLETE or a national publication. Existing audit requires raw SHP/PRJ, legal master, runtime/caches, and genuine candidate evidence. Existing publish also requires actual audit updates and baseline aggregates. These external inputs are not supplied by fixtures.
+
+The existing captured runtime and its declared manifests/dependencies remain external. KHMD_QGIS_ROOT is the explicit runtime metadata prefix; do not infer it from a random installation. No downloads/installers are included.

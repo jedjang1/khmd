@@ -1,0 +1,49 @@
+{
+  "status": "LOCAL_PUBLICATION_FILES_AND_RELOCATION_VALIDATED_NOT_PUBLISHED",
+  "package_version": "0.0.5",
+  "source_archive_sha256": "0210790dbdc8d6b7f01ef1f2413cd1686b567c222f4f910d6ca77a1150d2f522",
+  "binary_included": false,
+  "R_query": {
+    "status": "PASS",
+    "existing_install_reused": true,
+    "count_rows": 2,
+    "quality_rows": 2,
+    "price_rows": 2,
+    "all_data_paths_inside_candidate": true,
+    "seconds": 90.28100000001723,
+    "resource_scope": "new query worker only"
+  },
+  "construction": {
+    "status": "TARGETED_EXECUTION_LINKS_PASS",
+    "candidate_modules": [
+      "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/candidate_publication.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_regional_demand_v0_1/demand.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_source_lane_v0_1/csv_lane.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/grid.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_5179_busan_v0_2/run.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_bridge_v0_1/bridge.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/experiments/khmd_bulk_csv_large_pilot_v0_1/annual_run_v0_3/csv_spatial_supply_v0_1/supply_v0_4.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/src/khmd_reference_resource_monitor_v0_2.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/src/parcel_representative_grid_contract_v0_1.py",
+      "construction/khmd_construction_code_candidate_v0_1/project/src/spatial_representation_inputs_v0_1.py",
+      "construction/khmd_construction_code_candidate_v0_2/aggregate_consumer.py",
+      "construction/khmd_construction_code_candidate_v0_2/binding.py",
+      "construction/khmd_construction_code_candidate_v0_2/busan_finish.py",
+      "construction/khmd_construction_code_candidate_v0_2/completion.py",
+      "construction/khmd_construction_code_candidate_v0_2/guji.py",
+      "construction/khmd_construction_code_candidate_v0_2/guji_contract.py",
+      "construction/khmd_construction_code_candidate_v0_2/run_stage.py",
+      "construction/khmd_construction_code_candidate_v0_2/runtime.py",
+      "construction/khmd_construction_code_candidate_v0_2/validate_links.py"
+    ],
+    "module_audit_workers": 10,
+    "test_scope": "relocation-affected existing synthetic tests, not external input or national replay",
+    "supervised_seconds": 22.04599999997299
+  },
+  "current_max_bytes": 110669824,
+  "peak_max_bytes": 110669824,
+  "cap_bytes": 119537664,
+  "historical_check_reused": "khmd0.0.5 Status OK / ERROR0 WARNING0 NOTE0; --no-manual --no-build-vignettes; not rerun and not entire-check guard coverage",
+  "data_bytes_and_manifests_unchanged": true,
+  "raw_or_individual_stores_bundled": false
+}

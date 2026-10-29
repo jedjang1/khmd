@@ -1,0 +1,85 @@
+{
+  "count": {
+    "original_database_sha256": "5f20d58eba387971a9950cc8215dc1a28f80fb83d452b835d7025e6ffdf49bca",
+    "public_database_sha256": "a9884e3990afdc5b44b43c22ed0368c8fead243fcc280aed7751592dc135c454",
+    "page_bytes": 4096,
+    "changed_pages": [
+      1,
+      6
+    ],
+    "allowed_metadata_and_header_pages": [
+      1,
+      6,
+      7
+    ],
+    "all_other_database_pages_byte_identical": true,
+    "metadata_before": {
+      "schema": "KHMD_OBSERVATION_PANEL_V1",
+      "grid_version": "KHMD_UTMK_1KM_V1",
+      "source_release_sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a",
+      "spatial_manifest_sha256": "590260709b9531b479327b7c3c6f3c0c680d8830be902a408b3d51b202de9845",
+      "reference_snapshot": "2026-09-08",
+      "unit": "observation_occurrence",
+      "sparse": "true"
+    },
+    "metadata_after": {
+      "schema": "KHMD_OBSERVATION_PANEL_V1",
+      "grid_version": "KHMD_UTMK_1KM_V1",
+      "source_release_sha256": "b4193c000941a64ea2fce937271c45087c619e0d1fe03855c44d910047b47777",
+      "spatial_manifest_sha256": "17c06c2baf70109da9e6ab5bf94a84a77444c0a8abaa2eadc90f5305194bc62c",
+      "reference_snapshot": "2026-09-08",
+      "unit": "observation_occurrence",
+      "sparse": "true"
+    },
+    "SQL_trace": [
+      "BEGIN ",
+      "update metadata set value='b4193c000941a64ea2fce937271c45087c619e0d1fe03855c44d910047b47777' where key='source_release_sha256'",
+      "update metadata set value='17c06c2baf70109da9e6ab5bf94a84a77444c0a8abaa2eadc90f5305194bc62c' where key='spatial_manifest_sha256'",
+      "COMMIT",
+      "select key,value from metadata"
+    ],
+    "no_observation_or_statistic_table_writes": true
+  },
+  "price": {
+    "original_database_sha256": "ccc4bf77e93ca2f0a2e5b05bfa7f998ca3a6bb2775cad5d0012521d08e5f720b",
+    "public_database_sha256": "fac8cd492213ef66a2f9aaa79294bff0c127dbe0e3645f9ed82e2f5a5ed8af5a",
+    "page_bytes": 4096,
+    "changed_pages": [
+      1,
+      4
+    ],
+    "allowed_metadata_and_header_pages": [
+      1,
+      4,
+      5
+    ],
+    "all_other_database_pages_byte_identical": true,
+    "metadata_before": {
+      "binding": "395b2cba9f0253bd29dc6a1b589fb27812a3e3ddd89ecbfd6a175c03721babc2",
+      "schema": "KHMD_PRICE_PANEL_V1",
+      "unit": "reported_observation_value_statistics",
+      "grid_version": "KHMD_UTMK_1KM_V1",
+      "source_release_sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a",
+      "spatial_manifest_sha256": "590260709b9531b479327b7c3c6f3c0c680d8830be902a408b3d51b202de9845",
+      "count_release_sha256": "9bd282046282d6d1e304e793291f1c63f81de0332781ad2b0123c4f94f49ad96"
+    },
+    "metadata_after": {
+      "binding": "395b2cba9f0253bd29dc6a1b589fb27812a3e3ddd89ecbfd6a175c03721babc2",
+      "schema": "KHMD_PRICE_PANEL_V1",
+      "unit": "reported_observation_value_statistics",
+      "grid_version": "KHMD_UTMK_1KM_V1",
+      "source_release_sha256": "b4193c000941a64ea2fce937271c45087c619e0d1fe03855c44d910047b47777",
+      "spatial_manifest_sha256": "17c06c2baf70109da9e6ab5bf94a84a77444c0a8abaa2eadc90f5305194bc62c",
+      "count_release_sha256": "ba46ebc140e1ba396986d0533fb07ec1672a63db64b3a37e985872889fa92cfc"
+    },
+    "SQL_trace": [
+      "BEGIN ",
+      "update metadata set value='b4193c000941a64ea2fce937271c45087c619e0d1fe03855c44d910047b47777' where key='source_release_sha256'",
+      "update metadata set value='17c06c2baf70109da9e6ab5bf94a84a77444c0a8abaa2eadc90f5305194bc62c' where key='spatial_manifest_sha256'",
+      "update metadata set value='ba46ebc140e1ba396986d0533fb07ec1672a63db64b3a37e985872889fa92cfc' where key='count_release_sha256'",
+      "COMMIT",
+      "select key,value from metadata"
+    ],
+    "no_observation_or_statistic_table_writes": true
+  }
+}

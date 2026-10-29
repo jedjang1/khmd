@@ -1,0 +1,43 @@
+{
+  "assigned": 5,
+  "database": "counts.sqlite",
+  "database_integrity": {
+    "algorithm": "sha256",
+    "bytes": 24576,
+    "chunk_bytes": 1048576,
+    "chunk_sha256": [
+      "a39588cf300a7601403e0f76e66ea91e3b1c027506960e23003a8d7e73f70396"
+    ]
+  },
+  "database_sha256": "a39588cf300a7601403e0f76e66ea91e3b1c027506960e23003a8d7e73f70396",
+  "example_only": true,
+  "grid": {
+    "CRS": "EPSG:5179",
+    "origin": [
+      0,
+      0
+    ],
+    "spacing_metres": 1000,
+    "version": "KHMD_UTMK_1KM_V1",
+    "xy": "easting,northing"
+  },
+  "grid_version": "KHMD_UTMK_1KM_V1",
+  "input_occurrences": 5,
+  "panel_groups": 2,
+  "quality_groups": 2,
+  "reference_snapshot": "SYNTHETIC_NO_REAL_GEOMETRY",
+  "schema": "KHMD_OBSERVATION_PANEL_V1",
+  "source_release": {
+    "path": "source.json",
+    "sha256": "617eb0af1406f46ae5bd79285c4c0298b8a0017fc6afbf754ef62207f3aa6839"
+  },
+  "source_release_sha256": "617eb0af1406f46ae5bd79285c4c0298b8a0017fc6afbf754ef62207f3aa6839",
+  "sparse": "true",
+  "spatial_manifest_sha256": "49ac17ff03c7f8f827216807773aebd4f6a04f5c9b7883cbd7fe238d1a7ae62a",
+  "spatial_result": {
+    "path": "spatial.json",
+    "sha256": "49ac17ff03c7f8f827216807773aebd4f6a04f5c9b7883cbd7fe238d1a7ae62a"
+  },
+  "unassigned": 0,
+  "unit": "observation_occurrence"
+}

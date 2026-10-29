@@ -1,0 +1,213 @@
+{
+  "mode": "BOUNDED_SAMPLE",
+  "release": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\analysis_release_manifest.json",
+  "registry": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\registry_index.json",
+  "samples": [
+    {
+      "id": "SEOUL_SALE_201101",
+      "file_sha256": "22f2d985e31108aec8b7c06610ae8e5dd3104e721c175e5486ab60035e1edc5c",
+      "query": {
+        "family": "SALE",
+        "province": "서울특별시",
+        "district": "전체",
+        "date_from": "2011-01-01",
+        "date_to": "2011-12-31"
+      },
+      "month": "201101",
+      "limit": 64,
+      "reason": "서울·연구초기·매매"
+    },
+    {
+      "id": "SEOUL_RENT_202501_GANGNAM",
+      "file_sha256": "fa542183b839126e29579da42c0d9c67f94f67747bbbebca48faa5b465b35117",
+      "query": {
+        "family": "RENT",
+        "province": "서울특별시",
+        "district": "전체",
+        "date_from": "2025-01-01",
+        "date_to": "2025-12-31"
+      },
+      "month": "202501",
+      "limit": 64,
+      "reason": "서울·최근·전월세",
+      "region_prefix": "서울특별시 강남구 "
+    },
+    {
+      "id": "CHUNGBUK_RENT_201406_CHEONGJU",
+      "file_sha256": "d3ce539cabb3f20dbd576ed45a79d854138f6dcc39b817c294fc1116bd18556c",
+      "query": {
+        "date_from": "2014-01-01",
+        "date_to": "2014-12-31",
+        "district": "전체",
+        "family": "RENT",
+        "province": "충청북도"
+      },
+      "month": "201406",
+      "limit": 64,
+      "reason": "개편 전 계약월·현재 청주 조회표기",
+      "region_prefix": "충청북도 청주시 "
+    },
+    {
+      "id": "CHUNGBUK_RENT_201407_CHEONGJU",
+      "file_sha256": "d3ce539cabb3f20dbd576ed45a79d854138f6dcc39b817c294fc1116bd18556c",
+      "query": {
+        "date_from": "2014-01-01",
+        "date_to": "2014-12-31",
+        "district": "전체",
+        "family": "RENT",
+        "province": "충청북도"
+      },
+      "month": "201407",
+      "limit": 64,
+      "reason": "개편 후 계약월·같은 현재 조회표기",
+      "region_prefix": "충청북도 청주시 "
+    },
+    {
+      "id": "DAEGU_SALE_202306_GUNWI",
+      "file_sha256": "b73cb2e82c32c6216af6b3a2db60584a96d82ad44d1e4bb953eac5691afd8bef",
+      "query": {
+        "family": "SALE",
+        "province": "대구광역시",
+        "district": "전체",
+        "date_from": "2023-01-01",
+        "date_to": "2023-12-31"
+      },
+      "month": "202306",
+      "limit": 64,
+      "reason": "군위 이관 전 계약월·현재 대구 조회단위",
+      "region_prefix": "대구광역시 군위군 "
+    },
+    {
+      "id": "DAEGU_SALE_202307_GUNWI",
+      "file_sha256": "b73cb2e82c32c6216af6b3a2db60584a96d82ad44d1e4bb953eac5691afd8bef",
+      "query": {
+        "family": "SALE",
+        "province": "대구광역시",
+        "district": "전체",
+        "date_from": "2023-01-01",
+        "date_to": "2023-12-31"
+      },
+      "month": "202307",
+      "limit": 64,
+      "reason": "군위 이관 후 계약월",
+      "region_prefix": "대구광역시 군위군 "
+    },
+    {
+      "id": "BUSAN_RENT_202501",
+      "file_sha256": "e28346c383edd357d2ca966f2321d3cd0d3e9edfdfc41a090c49dff06b8bc21b",
+      "query": {
+        "family": "RENT",
+        "province": "부산광역시",
+        "district": "전체",
+        "date_from": "2025-01-01",
+        "date_to": "2025-12-31"
+      },
+      "month": "202501",
+      "limit": 64,
+      "reason": "비서울·최근·공간자산 부재의 명시적 분류"
+    },
+    {
+      "id": "SEOUL_RENT_202501_UNRESOLVED",
+      "file_sha256": "fa542183b839126e29579da42c0d9c67f94f67747bbbebca48faa5b465b35117",
+      "query": {
+        "family": "RENT",
+        "province": "서울특별시",
+        "district": "전체",
+        "date_from": "2025-01-01",
+        "date_to": "2025-12-31"
+      },
+      "month": "202501",
+      "limit": 8,
+      "reason": "기존 래미안432 미연결 근거 재사용; 새주소조사/치환 없음",
+      "region_exact": "서울특별시 동대문구 이문동",
+      "lot_exact": "432"
+    }
+  ],
+  "legal_master": "docs/routing_source_docs/molit_current_legal_dong_20260630/국토교통부_전국 법정동_20260630.csv",
+  "historical_names": "metadata/historical_routing_evidence_v0_1.csv",
+  "parcel_materialization": "metadata/rent_k2v2_reference_materialization_v0_1.json",
+  "saved_pos_index": "metadata/khmd_first_batch_transaction_spatial_lookup_v0_1.sqlite",
+  "pos_manifest": "metadata/khmd_first_batch_parcel_spatial_crosswalk_manifest_v0_2.json",
+  "literal_selector": "src/rent_k2v2_route_audit_v0_1.py",
+  "quarter_source": "src/khmd_aggregation_period_audit_v0_1.py",
+  "prior_results": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\spatial_target_v0_1\\bound_address_results.json",
+  "grid_version": "KHMD_GRID_1KM_EPSG5186_V0_1",
+  "grid_sha256": "aed1fdbeb4d5068c5a0f4ae1eda610fbe025de622af37dc2dd3b384be16367dc",
+  "bindings": [
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\analysis_release_manifest.json",
+      "sha256": "0ff0b3d89abc08e4ffadb2b129b48f4398d266bb2f9700b9d810b715166e350a"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\registry_index.json",
+      "sha256": "ae1806dfae3c4cf9f63151da8b6981384a7a68c21739ba64cf1f5762929d36d9"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_source_lane_v0_1\\manual_receipt_remaining86_v0_1\\runs\\receipt_20261027T140451_660823Z\\final_receipt.json",
+      "sha256": "e3fdde72476d0ab5472fe40b78f6b64e94c59bcd7cead3e067ad8877df8c962a"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\csv_spatial_bridge_v0_1\\bridge.py",
+      "sha256": "b4fd8688502698097ea896ff1ac11cab88b0dba926c306a275955fcfec7acdd2"
+    },
+    {
+      "path": "docs\\routing_source_docs\\molit_current_legal_dong_20260630\\국토교통부_전국 법정동_20260630.csv",
+      "sha256": "e5657d4b53a16f72e42e9c0d91e84ff2d647e70dc56b9408da6fd057d0da45c3"
+    },
+    {
+      "path": "metadata\\historical_routing_evidence_v0_1.csv",
+      "sha256": "235bcef0f4e63ce945c1f9d61f5f7389131ce8664f99a112855545aa291ccb68"
+    },
+    {
+      "path": "metadata\\rent_k2v2_reference_materialization_v0_1.json",
+      "sha256": "50441d2af8e1f74ff9b4ba46c0f5441577204e2edb1b8621d888ee04e678d5db"
+    },
+    {
+      "path": "metadata\\khmd_first_batch_parcel_spatial_crosswalk_manifest_v0_2.json",
+      "sha256": "e5511ae6ea871a4a3c7f22b6f78c6e62197dc2075b5530b1193507f18b9c29cf"
+    },
+    {
+      "path": "src\\rent_k2v2_route_audit_v0_1.py",
+      "sha256": "60d836fb24d6acfd13488a47927dfe7e4b083e003072771d796ecc2319055449"
+    },
+    {
+      "path": "src\\khmd_aggregation_period_audit_v0_1.py",
+      "sha256": "5f6311498fb5afb20057e5ce899c720d9d14c5d4ee3f9d8ec7d727d4a81386c4"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\spatial_target_v0_1\\bound_address_results.json",
+      "sha256": "9e3154fa357a7851b77433172f8d94be3a5d4314ec6d3dfb7349f5c80e3ff707"
+    },
+    {
+      "path": "metadata\\khmd_fixed_1km_grid_spec_v0_1.json",
+      "sha256": "aed1fdbeb4d5068c5a0f4ae1eda610fbe025de622af37dc2dd3b384be16367dc"
+    },
+    {
+      "path": "src\\parcel_representative_grid_contract_v0_1.py",
+      "sha256": "7c7b322bbc87317c290ae18ef22f79422ff8560c10e9cfb570abd460f9608690"
+    },
+    {
+      "path": "src\\khmd_reference_resource_monitor_v0_2.py",
+      "sha256": "4f64dca936010397bb9b1329821d11138a161b1f9521a193928e335108a40e69"
+    },
+    {
+      "path": "metadata\\khmd_nationwide_reference_resource_monitor_contract_v0_2.json",
+      "sha256": "d00ba84f921e9f51f3133e381e1fbc28ffd4f703768428aa4be9e7952cdcfd4d"
+    },
+    {
+      "path": "experiments\\khmd_bulk_csv_large_pilot_v0_1\\annual_run_v0_3\\spatial_target_v0_1\\qualification.json",
+      "sha256": "db710cbfb234912bf60aac418265ef507b253a5e052cfefd080981e3337dddf6"
+    },
+    {
+      "path": "metadata\\khmd_grid_quarter_sale_metric_spec_v0_1.csv",
+      "sha256": "8f49f4b6cb87549c5eefd8d4badaa79c53af5764152e39030d7550a81768f699"
+    },
+    {
+      "path": "metadata\\khmd_grid_quarter_rent_metric_spec_v0_1.csv",
+      "sha256": "40c945743d47b7dcf48f04bcac6f6abf99c43c4e508632dc1e8aed006c4a3ce1"
+    }
+  ],
+  "national_execution_enabled": false,
+  "temporal_interpretation": "2026 reference parcel proxy, not validated contract-time location",
+  "aggregation": "Reuse supporting n_assigned_records occurrence-count interpretation and existing calendar-quarter function. Experimental CSV subset only; not price/event-eligible API metric."
+}
