@@ -1,3 +1,12 @@
 0.0.5: approved author/maintainer, MIT project-code licence, actual NA:23 CC BY 2.0 KR attribution.
 R functions, exports, numeric calculations, data and release selection unchanged.
 Prior0.0.4 and its successful check are preserved separately, not this version check evidence.
+
+2026-10-29: open-license alignment of external notices only: MIT software;
+author-held aggregate data/independent documents CC BY4.0. No package/data change.
+Earlier NC proposals retained outside this distribution, not applied.
+
+2026-10-30: documentation-only GitHub sync. Unchanged khmd0.0.5; current
+MIT/CC BY4.0 scope, user-reported Zenodo replacement upload and Save draft,
+reserved/unpublished DOI, current GitHub inventory versus historical evidence.
+No package, test, construction execution or data changes.

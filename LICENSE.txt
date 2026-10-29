@@ -23,3 +23,29 @@ THE SOFTWARE.
 Scope notice: third-party runtime components retain their own notices.
 Transaction sources, parcel sources and aggregate data are not relicensed by this
 code licence; see DATA_SOURCES.txt. Package DESCRIPTION uses MIT + file LICENSE.
+
+
+AUTHOR-OWNED AGGREGATE DATA AND INDEPENDENT DOCUMENTATION
+Copyright (c) 2026 Jinhyeok Jang.
+The author's copyright and similar rights, to the extent actually held, in the
+KHMD aggregate-data compilation, synthetic example data and independent original
+documentation are licensed under Creative Commons Attribution 4.0 International
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Legal terms: https://creativecommons.org/licenses/by/4.0/legalcode.en
+This permits commercial and noncommercial sharing and adaptation under the
+applicable attribution, notice-retention and change-identification conditions.
+No endorsement by the author or source provider is implied. Existing grants
+remain unaffected. The notice does not create rights over unprotected facts or
+materials not owned by the author, or restrict statutory exceptions.
+
+EXCLUSIONS AND THIRD-PARTY RIGHTS
+The original public datasets and third-party code are not relicensed by this
+notice. MOLIT/VWorld NA:23 remains CC BY 2.0 Korea; the transaction CSV portal's
+unrestricted-use indication and actual service guidance remain separate. No
+government approval is asserted. See DATA_SOURCES.txt and LICENSE_SCOPE.csv.
+The author cannot grant another holder's copyright or database rights. The two
+recorded source-rights interpretations are not resolved by selecting CC BY 4.0.
+Software, its packaged associated documentation and construction programs remain
+MIT where author-owned; external runtime dependencies retain their own terms.
+Earlier noncommercial drafts are not applied to this distribution. Existing MIT
+permissions in earlier copies or associated documentation are not withdrawn.

@@ -1,6 +1,17 @@
-LOCAL CANDIDATE / NOT PUBLISHED
-Code MIT approved by user; not a whole-bundle/data licence.
-NA23 CC BY2.0KR identity resolved; no MK30563 NC/ND applied.
-Separate database-maker rights scope and transaction official-statistics guidance interpretation remain unresolved.
-Neither a confirmed publication ban, an agency approval nor an assertion that additional permission is mandatory.
-No inquiry submitted, public URL/DOI invented or external upload performed.
+PRIVATE REPOSITORY / SAVED ZENODO DRAFT — 2026-10-30 (Asia/Seoul)
+Author-owned software: MIT. Author-held aggregate-data and independent-document
+contributions: CC BY 4.0. Original public data and third-party code keep their terms.
+Unmodified validated khmd0.0.5 is the package here; no NC development branch is used.
+
+GitHub https://github.com/jedjang1/khmd is Private, checked for this sync.
+The user reports replacing the ZIP in the existing Zenodo draft, selecting
+CC BY 4.0 and completing Save draft. The deposit is NOT PUBLISHED.
+DOI10.5281/zenodo.23762471 is RESERVED, not an available public download.
+Zenodo status is the user's current report, not an independent account inspection.
+No Zenodo action, public transition, tag/Release or agency inquiry is performed here.
+
+Prior package-internal notices and metadata validation files describe their original
+preparation/execution dates. They are not rewritten. Current repository/deposit
+status is in root README.md/README.txt/CITATION.txt and this notice.
+Separate database-maker-rights and transaction official-statistics/automated-use
+guidance application remain unresolved; no legal or EPB acceptance guarantee.

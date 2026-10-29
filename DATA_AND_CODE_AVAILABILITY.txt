@@ -1,27 +1,35 @@
-Data and Code Availability — draft, local preparation only
+Data and Code Availability — private code and saved, unpublished data draft
+Current status recorded2026-10-30 (Asia/Seoul).
 
-KHMD0.0.5 source and the validated source archive, documentation and synthetic
-examples are prepared locally for a future code repository. A separate construction-
-code candidate includes both basev0_1 and connectionv0_2 and their required local
-modules, input contracts and selected synthetic validation tools. It is not a claim
-of independently reproduced nationwide processing from externally supplied inputs.
+Author-owned khmd0.0.5 and construction code are MIT. Author-held contributions
+to the aggregate-data compilation and independent documentation are CC BY4.0.
+Original public data and third-party code retain their respective terms and
+attribution; the author does not relicense government raw data as CC BY4.0.
 
-The proposed data deposit contains the sparse1-km grid-by-contract-quarter-by-family
-observation-count panel, metric/rental-level price distributions, source-region quality
-tables and linked provenance/grid manifests. It does not contain original CSV rows,
-parcel boundaries, PNU, representative-point datasets or individual-observation stores.
-The Windows binary ZIP is not included in this first publication candidate.
+Code repository: https://github.com/jedjang1/khmd (Private, not a public release).
+The user reports that the replacement aggregate ZIP is uploaded to the existing
+Zenodo draft, CC BY4.0 is selected and Save draft is complete. The record remains
+unpublished. DOI10.5281/zenodo.23762471 is reserved, not a published DOI/download.
+This document sync does not inspect or modify the Zenodo account or publish files.
 
-Project-authored code is MIT. MOLIT continuous cadastral geometry (NA:23), reference
-2026-09-08, was used under CC BY2.0 Korea; the transaction CSV portal's unrestricted-
-use indication is documented. Source licences and derived-data conditions are distinct
-from the code licence. Separate database-maker-rights scope and the transaction
-download screen's official-statistics guidance remain unresolved interpretations.
-No new blanket licence is assigned to the aggregate data, and this text neither
-announces agency approval nor declares additional permission categorically necessary.
+GitHub contains source code, documentation and fabricated examples, including
+validated khmd0.0.5 source/tar.gz and construction basev0_1/connectionv0_2 with
+their required internal dependencies. The separate ZIP contains sparse grid-by-
+contract-quarter-by-family observation counts, price/rental-level distributions,
+query-region quality tables and provenance/grid manifests. No raw CSV, parcel
+boundaries, PNU/representative-point dataset or individual-observation store is
+included. Windows binary ZIPs and internal diagnostic logs are not GitHub inputs.
 
-All assets remain local; no repository, public download URL or DOI has been issued.
-Complete actual repository/deposit identifiers only after an external publication
-decision and deposit. Repeated occurrences, cancelled-date-displayed sales, source
-observability and sparse-group limitations remain. These are descriptive observations,
-not proven population totals, fully anonymous microdata or historical-position proof.
+The original package build/install/check and actual queries succeeded. This sync
+does not repeat them. Construction-code candidate testing covered specific
+execution connections, input binding/rejection and relocation with small synthetic
+inputs; it was not an independent nationwide reconstruction from new external
+inputs. Basic aggregate queries need no individual-row store. Raw-row functions
+need separate stores not supplied by the aggregate deposit.
+
+NA:23 CC BY2.0KR source notices and transaction-source conditions remain. Separate
+database-maker-rights scope and official-statistics/automated-use guidance for this
+research product are still interpretation issues. No agency clearance, blanket
+extra-permission duty, legal compliance or EPB acceptance is asserted. Repeated
+occurrences, cancellation policy, sparse panels,2026reference parcels, partial
+CSV/API matches and unproven population completeness remain unchanged.

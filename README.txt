@@ -1,14 +1,25 @@
-KHMD 0.0.5 — LOCAL PUBLICATION CANDIDATE / NOT YET PUBLISHED
+KHMD 0.0.5 — PRIVATE CODE / SAVED, UNPUBLISHED ZENODO DRAFT
 
 Author and maintainer: Jinhyeok Jang <jedjang1@gmail.com> (aut, cre).
-Project-authored code is MIT. The data conditions are separate: see DATA_SOURCES.txt,
-LICENSE.txt and PUBLICATION_STATUS.txt. No repository URL or DOI has been issued.
+Author-owned software remains MIT. Author-owned aggregate-data compilation and
+independent documentation contributions are CC BY 4.0. Third-party and source
+terms remain separate (LICENSE.txt, LICENSE_SCOPE.csv, DATA_SOURCES.txt).
+Commercial and noncommercial reuse is permitted within these respective grants.
+GitHub https://github.com/jedjang1/khmd is Private. Reserved Zenodo DOI
+10.5281/zenodo.23762471 is reserved, not an available public record. The user
+reports replacement ZIP upload, CC BY4.0 selection and Save draft complete; the
+record is still unpublished. This sync does not independently inspect Zenodo.
+This candidate uses the unchanged validated 0.0.5, not the NC 0.0.5.9001 branch.
+Package-internal build-time statements are retained byte-for-byte; root documents
+give the current status. No package-internal file was changed or rebuilt.
 
 THREE SEPARATE COMPONENTS
 code/khmd and code/khmd_0.0.5.tar.gz: unchanged validated R package/source archive.
 data/: sparse count and price panels, aggregate quality tables, required manifests.
 construction/: actual construction-code base v0_1 AND connection overlay v0_2.
 example_data/ and tools/make_demo.py: small fabricated example and regeneration.
+The data/ subtree is NOT in this GitHub checkout; obtain the separate matching
+Zenodo ZIP only with draft access until publication, and supply it locally.
 Windows ZIP is deliberately excluded from this first public candidate. The verified
 binary remains a local artifact; it was not rebuilt or repackaged for publication.
 Original CSVs, parcel data, PNU/representative-point datasets, individual-observation
@@ -36,7 +47,8 @@ it no longer offers the excluded binary-install mode. No guard override is provi
 
 DATA LOCATION AND REAL QUERIES
 library(khmd) loads code, not the complete data release into memory. Place data/
-beside the other folders as below; metadata paths inside its manifests are relative.
+beside the other folders in a separate local working copy as below; metadata
+paths inside its manifests are relative. Do not commit data/ into this repository.
 Manifest opening verifies bound data blocks without loading all rows into memory.
 
   p <- khmd_open_panel(file.path(B,"data/count/release_manifest.json"))
@@ -86,18 +98,26 @@ CSV contracts identify separate source CSVs, normalized stores, cadastral/master
 historical code inputs and pinned stage/runtime records. No real external input set
 was newly bound here and no independent national replay was performed. This does
 not reopen the completed construction tasks. The candidate is not self-contained.
-Only relocation-affected existing synthetic tests ran, using copied actual modules.
+During earlier publication staging, only relocation-affected existing synthetic
+tests ran, using copied actual modules. They were not rerun for this document sync.
 Loaded-module paths were checked so old experiment code could not supply a PASS.
 Unchanged119537664-byte worker supervision and child policy were used for new tests.
 
 FILE SETS AND PUBLICATION
-DISTRIBUTION_FILES.csv in this folder (also provided in the local handoff) lists
-all other files; the inventory itself has an external SHA to avoid self-reference; FILE_INVENTORY.json/.sha256 in this folder bind the distributable payload.
-UPLOAD_LIST.csv separates GitHub code/documentation from a data preservation deposit.
-Reassemble both sets into this same relative layout for queries. No service/repository
-was created, no upload occurred and no DOI exists. GitHub code/docs do not contain
-the large aggregate SQLite files; the data deposit supplies data/ plus linked notices.
-The separate database-maker-rights scope and transaction-service official-statistics
-guidance remain interpretation questions. They are neither cleared nor declared a
-publication ban or an unconditional extra-permission requirement. No new licence was
-assigned to all derived data. Read DATA_AND_CODE_AVAILABILITY.txt before publication.
+GITHUB_FILES.csv is the current inventory of this checkout, excluding itself to
+avoid a circular self-hash. LICENSE_SCOPE.csv is the current file-license map,
+including whether a combined-candidate file belongs here or to the separate ZIP.
+Inherited DISTRIBUTION_FILES.csv, FILE_INVENTORY.json/.sha256 and UPLOAD_LIST.csv
+are preserved HISTORICAL whole-candidate snapshots from the initial preparation;
+they are not current GitHub inventories and do not assert data/ is present here.
+SOURCE_MAP.csv and metadata/* are preserved historical source/validation evidence.
+Their original checks are not new checks of the updated repository documents.
+The root README.md/.txt, LICENSE.txt, DATA_SOURCES.txt, CITATION.txt,
+DATA_AND_CODE_AVAILABILITY.txt and PUBLICATION_STATUS.txt state the current policy
+and status. Package-internal historical documents remain byte-identical to0.0.5.
+
+GitHub supplies code/docs/synthetic examples; the Zenodo draft supplies the
+aggregate-data ZIP. The user completed replacement upload, CC BY4.0 selection and
+Save draft; it is not published. Reserved DOI10.5281/zenodo.23762471 is not a
+public download. This documentation commit does not alter Zenodo, make GitHub
+Public, issue a Release/tag or resolve the two source-rights interpretations.

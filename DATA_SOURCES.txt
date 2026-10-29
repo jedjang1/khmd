@@ -51,5 +51,47 @@ Seoul PILOT_PARTIAL, Cheongju PARTIAL_MATCH and unproven population completeness
 
 Remaining interpretations: separate database-maker-rights scope and transaction
 official-statistics guidance. These are not a confirmed publication prohibition,
-agency clearance, or a categorical requirement for extra permission. No new legal
-investigation/inquiry occurred for this metadata release. No external release yet.
+agency clearance, or a categorical requirement for extra permission. No agency
+inquiry was sent. This local policy alignment is not an external release.
+
+
+AUTHOR-OWNED AGGREGATE DATA AND INDEPENDENT DOCUMENTATION
+Copyright (c) 2026 Jinhyeok Jang.
+The author's copyright and similar rights, to the extent actually held, in the
+KHMD aggregate-data compilation, synthetic example data and independent original
+documentation are licensed under Creative Commons Attribution 4.0 International
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Legal terms: https://creativecommons.org/licenses/by/4.0/legalcode.en
+This permits commercial and noncommercial sharing and adaptation under the
+applicable attribution, notice-retention and change-identification conditions.
+No endorsement by the author or source provider is implied. Existing grants
+remain unaffected. The notice does not create rights over unprotected facts or
+materials not owned by the author, or restrict statutory exceptions.
+
+EXCLUSIONS AND THIRD-PARTY RIGHTS
+The original public datasets and third-party code are not relicensed by this
+notice. MOLIT/VWorld NA:23 remains CC BY 2.0 Korea; the transaction CSV portal's
+unrestricted-use indication and actual service guidance remain separate. No
+government approval is asserted. See DATA_SOURCES.txt and LICENSE_SCOPE.csv.
+The author cannot grant another holder's copyright or database rights. The two
+recorded source-rights interpretations are not resolved by selecting CC BY 4.0.
+Software, its packaged associated documentation and construction programs remain
+MIT where author-owned; external runtime dependencies retain their own terms.
+Earlier noncommercial drafts are not applied to this distribution. Existing MIT
+permissions in earlier copies or associated documentation are not withdrawn.
+
+ACCESS/USE GUIDANCE — SEPARATE FROM LICENSING
+Official-screen human downloads and local receipt/normalization are the recorded
+acquisition workflow; no automated download endpoint is used by this packaging.
+The RTMS notice directs repeated/bulk use to the portal and restricts automated
+access/extraction/processing/provision and burdensome or evasive service use:
+https://rt.molit.go.kr/pt/info/info.do
+The portal's general reuse permission does not override access-method restrictions.
+The text's precise application to locally processing officially downloaded CSVs
+is not separately resolved here. It is not treated as either a proven exemption
+or a blanket infringement finding. The external-publication/report-date official-
+statistics guidance also remains an interpretation issue for this contract-date
+research aggregate. Attribution alone is not represented as agency clearance.
+The NA:23 CC BY2.0 KR copyright grant is not silently expanded into a finding
+about every separate database-maker right. Absence of distributed parcels/PNU/
+coordinates distinguishes this product but does not settle all extraction rights.
