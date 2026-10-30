@@ -1,4 +1,4 @@
-Data and Code Availability — private code and saved, unpublished data draft
+Data and Code Availability — public code and published aggregate data v1
 Current status recorded2026-10-30 (Asia/Seoul).
 
 Author-owned khmd0.0.5 and construction code are MIT. Author-held contributions
@@ -6,11 +6,17 @@ to the aggregate-data compilation and independent documentation are CC BY4.0.
 Original public data and third-party code retain their respective terms and
 attribution; the author does not relicense government raw data as CC BY4.0.
 
-Code repository: https://github.com/jedjang1/khmd (Private, not a public release).
-The user reports that the replacement aggregate ZIP is uploaded to the existing
-Zenodo draft, CC BY4.0 is selected and Save draft is complete. The record remains
-unpublished. DOI10.5281/zenodo.23762471 is reserved, not a published DOI/download.
-This document sync does not inspect or modify the Zenodo account or publish files.
+GitHub is public: https://github.com/jedjang1/khmd
+Zenodo data version v1 was published on 2026-10-30:
+https://zenodo.org/records/23762471
+Version DOI: https://doi.org/10.5281/zenodo.23762471
+Data version v1 is distinct from R package version 0.0.5.
+Unauthenticated access to GitHub, the record and the resolving DOI was verified
+on 2026-10-30. The published ZIP was downloaded once and matched the local
+release ZIP in byte size and SHA-256; all ZIP member CRC checks passed.
+The public record and DOI provide this data version, not a package version or
+paper DOI. Publication does not establish new legal clearance, source completeness
+or independent nationwide reproducibility. No Zenodo modification is made here.
 
 GitHub contains source code, documentation and fabricated examples, including
 validated khmd0.0.5 source/tar.gz and construction basev0_1/connectionv0_2 with

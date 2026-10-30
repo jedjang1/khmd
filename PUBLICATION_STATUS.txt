@@ -1,17 +1,25 @@
-PRIVATE REPOSITORY / SAVED ZENODO DRAFT — 2026-10-30 (Asia/Seoul)
-Author-owned software: MIT. Author-held aggregate-data and independent-document
-contributions: CC BY 4.0. Original public data and third-party code keep their terms.
-Unmodified validated khmd0.0.5 is the package here; no NC development branch is used.
+PUBLIC GITHUB / PUBLISHED ZENODO DATA v1 — 2026-10-30
+GitHub is public: https://github.com/jedjang1/khmd
+Zenodo data version v1 was published on 2026-10-30:
+https://zenodo.org/records/23762471
+Version DOI: https://doi.org/10.5281/zenodo.23762471
+Data version v1 is distinct from R package version 0.0.5.
+Unauthenticated access to GitHub, the record and the resolving DOI was verified
+on 2026-10-30. The published ZIP was downloaded once and matched the local
+release ZIP in byte size and SHA-256; all ZIP member CRC checks passed.
 
-GitHub https://github.com/jedjang1/khmd is Private, checked for this sync.
-The user reports replacing the ZIP in the existing Zenodo draft, selecting
-CC BY 4.0 and completing Save draft. The deposit is NOT PUBLISHED.
-DOI10.5281/zenodo.23762471 is RESERVED, not an available public download.
-Zenodo status is the user's current report, not an independent account inspection.
-No Zenodo action, public transition, tag/Release or agency inquiry is performed here.
+Own software MIT; author-held aggregate-data and independent-document
+contributions CC BY 4.0. Source and third-party rights/attribution remain separate.
+No noncommercial proposal is applied. Unchanged validated khmd 0.0.5 is used.
+The deposit contains grid aggregates, quality and provenance; no raw transaction
+rows, parcel boundaries, real PNU/representative-point dataset or row stores.
 
-Prior package-internal notices and metadata validation files describe their original
-preparation/execution dates. They are not rewritten. Current repository/deposit
-status is in root README.md/README.txt/CITATION.txt and this notice.
-Separate database-maker-rights and transaction official-statistics/automated-use
-guidance application remain unresolved; no legal or EPB acceptance guarantee.
+Previously completed package/build/check/query and data-construction records
+remain valid for their stated scope. The separate candidate's limited synthetic
+connection tests are not independent nationwide reproduction from new inputs.
+No build/check or runtime data tests were rerun for this documentation update.
+Past CHANGELOG entries, frozen manifests and package-internal notices retain their
+historical status. Current status is here and in root README/Availability/CITATION.
+The two recorded source-rights interpretation questions remain unresolved.
+Public access is not agency approval, legal suitability or EPB acceptance.
+No Release/tag, Zenodo modification/new version or inquiry is performed here.

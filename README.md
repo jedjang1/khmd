@@ -1,4 +1,4 @@
-# khmd 0.0.5 — private code repository
+# khmd 0.0.5 — public code and Zenodo data v1
 
 Jinhyeok Jang <jedjang1@gmail.com> · author and maintainer (`aut`, `cre`).
 
@@ -12,12 +12,19 @@ See [LICENSE.txt](LICENSE.txt), [LICENSE_SCOPE.csv](LICENSE_SCOPE.csv) and
 
 ## Current distribution status
 
-This [GitHub repository](https://github.com/jedjang1/khmd) remains **Private**.
-The user has replaced the aggregate ZIP in the existing Zenodo draft, selected
-CC BY4.0 and completed **Save draft**. Zenodo is **not published**. DOI
-`10.5281/zenodo.23762471` is reserved; it is not presented as a published record
-or working public download. This status is user-reported; this sync does not
-inspect or modify Zenodo. No public transition or Release/tag is performed.
+This [GitHub repository](https://github.com/jedjang1/khmd) is **public**.
+The aggregate data are published on [Zenodo](https://zenodo.org/records/23762471)
+as **data version v1**, publication date **2026-10-30**.
+Version DOI: [10.5281/zenodo.23762471](https://doi.org/10.5281/zenodo.23762471).
+The **R package remains 0.0.5**; these are separate version identifiers.
+
+Download `khmd_grid_panels_2011_2025_cc_by_4_0.zip` from that record and extract
+with relative paths intact. Unauthenticated access and DOI resolution were
+verified on 2026-10-30. The public ZIP (94,066,474 bytes) matched the local release
+SHA-256 and passed every member CRC check. This is distribution-integrity
+verification, not a new validation of source data, statistical methods or rights.
+Frozen files inside the ZIP may describe their earlier draft preparation date;
+this notice states the current published status. No deposit file was changed.
 
 ## What is provided
 

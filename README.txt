@@ -1,14 +1,18 @@
-KHMD 0.0.5 — PRIVATE CODE / SAVED, UNPUBLISHED ZENODO DRAFT
+KHMD 0.0.5 — PUBLIC CODE / PUBLISHED ZENODO DATA v1
 
 Author and maintainer: Jinhyeok Jang <jedjang1@gmail.com> (aut, cre).
 Author-owned software remains MIT. Author-owned aggregate-data compilation and
 independent documentation contributions are CC BY 4.0. Third-party and source
 terms remain separate (LICENSE.txt, LICENSE_SCOPE.csv, DATA_SOURCES.txt).
 Commercial and noncommercial reuse is permitted within these respective grants.
-GitHub https://github.com/jedjang1/khmd is Private. Reserved Zenodo DOI
-10.5281/zenodo.23762471 is reserved, not an available public record. The user
-reports replacement ZIP upload, CC BY4.0 selection and Save draft complete; the
-record is still unpublished. This sync does not independently inspect Zenodo.
+GitHub is public: https://github.com/jedjang1/khmd
+Zenodo data version v1 was published on 2026-10-30:
+https://zenodo.org/records/23762471
+Version DOI: https://doi.org/10.5281/zenodo.23762471
+Data version v1 is distinct from R package version 0.0.5.
+Unauthenticated access to GitHub, the record and the resolving DOI was verified
+on 2026-10-30. The published ZIP was downloaded once and matched the local
+release ZIP in byte size and SHA-256; all ZIP member CRC checks passed.
 This candidate uses the unchanged validated 0.0.5, not the NC 0.0.5.9001 branch.
 Package-internal build-time statements are retained byte-for-byte; root documents
 give the current status. No package-internal file was changed or rebuilt.
@@ -19,7 +23,7 @@ data/: sparse count and price panels, aggregate quality tables, required manifes
 construction/: actual construction-code base v0_1 AND connection overlay v0_2.
 example_data/ and tools/make_demo.py: small fabricated example and regeneration.
 The data/ subtree is NOT in this GitHub checkout; obtain the separate matching
-Zenodo ZIP only with draft access until publication, and supply it locally.
+Zenodo ZIP from https://zenodo.org/records/23762471 and supply it locally.
 Windows ZIP is deliberately excluded from this first public candidate. The verified
 binary remains a local artifact; it was not rebuilt or repackaged for publication.
 Original CSVs, parcel data, PNU/representative-point datasets, individual-observation
@@ -116,8 +120,9 @@ The root README.md/.txt, LICENSE.txt, DATA_SOURCES.txt, CITATION.txt,
 DATA_AND_CODE_AVAILABILITY.txt and PUBLICATION_STATUS.txt state the current policy
 and status. Package-internal historical documents remain byte-identical to0.0.5.
 
-GitHub supplies code/docs/synthetic examples; the Zenodo draft supplies the
-aggregate-data ZIP. The user completed replacement upload, CC BY4.0 selection and
-Save draft; it is not published. Reserved DOI10.5281/zenodo.23762471 is not a
-public download. This documentation commit does not alter Zenodo, make GitHub
-Public, issue a Release/tag or resolve the two source-rights interpretations.
+GitHub supplies public code/docs/synthetic examples; published Zenodo data v1
+supplies the aggregate-data ZIP. See the record and version DOI above. Frozen
+ZIP/package-internal documents retain their preparation-time status; current root
+documents supersede those status statements only. No data/manifest is rewritten.
+This documentation commit does not change GitHub visibility, issue a Release/tag,
+modify Zenodo or resolve the two source-rights interpretations.

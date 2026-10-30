@@ -10,3 +10,9 @@ Earlier NC proposals retained outside this distribution, not applied.
 MIT/CC BY4.0 scope, user-reported Zenodo replacement upload and Save draft,
 reserved/unpublished DOI, current GitHub inventory versus historical evidence.
 No package, test, construction execution or data changes.
+
+2026-10-30 (post-publication): GitHub Public and Zenodo data v1 publication
+confirmed without authentication; DOI resolves to record 23762471. Public ZIP
+matches the local release SHA-256 and all member CRCs pass. Root current-status
+and citation documents updated; package remains 0.0.5. Earlier entries above
+retain their historical status. No package/code/data/manifest changes or rebuild.

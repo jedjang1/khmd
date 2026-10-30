@@ -1,11 +1,15 @@
+SOFTWARE (package version, not data version)
 Jang, Jinhyeok (2026). khmd: External Housing Observation and Descriptive Panel Readers.
-R package0.0.5, unchanged validated source. Author/maintainer: jedjang1@gmail.com.
-Software: MIT. https://github.com/jedjang1/khmd is currently Private.
+R package version 0.0.5. https://github.com/jedjang1/khmd
+Author/maintainer: jedjang1@gmail.com. Own software MIT.
 
-Jang, Jinhyeok (2026). KHMD grid observation and descriptive price panels,2011–2025.
-Zenodo draft: replacement ZIP uploaded and Save draft completed, as reported by
-the user. Author-held aggregate/document contributions: CC BY4.0; upstream terms
-separate. Reserved DOI10.5281/zenodo.23762471 is NOT PUBLISHED. Do not represent it
-as an already published record or working public download. No paper DOI is asserted.
-Use the actual published record/version citation only after publication.
-Retain the MOLIT/NA:23 attribution and processing description in DATA_SOURCES.txt.
+DATA (published dataset version)
+Jang, Jinhyeok (2026). KHMD: Fixed 1-km Grid Quarterly Panels of Apartment Sales and Rentals in South Korea, 2011–2025. (v1) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.23762471
+Record: https://zenodo.org/records/23762471
+Publication date: 2026-10-30. Title/author/date/version verified in the public record.
+This DOI identifies dataset version v1; it is not the R package or a paper DOI.
+Author-held aggregate-data and independent-document contributions CC BY 4.0;
+upstream public data and third-party rights remain separate. Retain MOLIT/NA:23
+attribution and processing descriptions in DATA_SOURCES.txt. Publication does not
+resolve the previously recorded source-rights interpretation questions.
