@@ -1,128 +1,81 @@
-KHMD 0.0.5 — PUBLIC CODE / PUBLISHED ZENODO DATA v1
+KHMD 0.0.5 / public aggregate dataset v1 — first-user guide
 
-Author and maintainer: Jinhyeok Jang <jedjang1@gmail.com> (aut, cre).
-Author-owned software remains MIT. Author-owned aggregate-data compilation and
-independent documentation contributions are CC BY 4.0. Third-party and source
-terms remain separate (LICENSE.txt, LICENSE_SCOPE.csv, DATA_SOURCES.txt).
-Commercial and noncommercial reuse is permitted within these respective grants.
-GitHub is public: https://github.com/jedjang1/khmd
-Zenodo data version v1 was published on 2026-10-30:
-https://zenodo.org/records/23762471
+START HERE: README.md and examples/consumer_quickstart.R.
+The English README gives complete copyable blocks; the R example runs top-to-bottom.
+Neither requires existing R objects or any developer computer path.
+
+1. Install the R package independently of the data.
+   R >= 4.2.0; CRAN https://cloud.r-project.org.
+   Installation helper: remotes. Actual Imports: DBI, RSQLite >=2.2.17, jsonlite,
+   digest. The script installs missing dependencies and, only if khmd is absent:
+   remotes::install_github("jedjang1/khmd",
+     ref="fc5be58cb39100b5e4bd76bc56294c4feb5fdbd4", subdir="code/khmd",
+     upgrade="never", dependencies=NA).
+   Normal installed 0.0.5 is reused; another version stops without automatic
+   deletion/overwrite. Confirm packageVersion("khmd") == "0.0.5". An in-use or
+   skipped installation is not success: start a new R session when needed.
+
+2. Define uppercase B in each new R session:
+   B <- file.path(path.expand("~"), "KHMD", "v1")
+   B contains data/, not code/ or the package library. To reuse a complete existing
+   extraction, set B to that directory instead (e.g. "D:/KHMD/v1").
+   The R example accepts B as its first Rscript argument too.
+   Public file:
+   https://zenodo.org/api/records/23762471/files/khmd_grid_panels_2011_2025_cc_by_4_0.zip/content
+   Size: 94,066,474 bytes. SHA256:
+   651d8709d9e82750533cb0c9146a3fcd0e33d884343f9d7a889e660b7be71fbe
+   Binary download, sufficient timeout, checked temporary-file promotion and
+   preserved ZIP paths are in the example. Good extracted data are reused.
+   Failed downloads, bad checksums, missing files and overwrite conflicts stop.
+
+3. Use the actual functions in the example:
+   khmd_open_panel(..., expected_sha256=...) then khmd_panel_collect(...),
+   khmd_open_price_panel(..., expected_sha256=...) then khmd_price_collect(...).
+   Count manifest SHA:
+   ba46ebc140e1ba396986d0533fb07ec1672a63db64b3a37e985872889fa92cfc
+   Price manifest SHA:
+   ed557dee0e763b2cca3d055fcdafe1e8417244bc09c50e32f8b6c0d2b40228a1
+   First five 2025Q1 SALE grids are reused for total and per-m2 price queries.
+   The annual RENT example queries 2025Q1..Q4 for grid1000:1660 and reports
+   quarters_present plus the sum of returned occurrences, without new/renewal
+   contract classification. Missing quarters are not zero; no rows give NA sum.
+
+TROUBLESHOOTING
+object B not found: rerun the B/data block. RSQLite missing: dependency block.
+Package in use: fresh R session before necessary installation; never force-delete
+a live library. Manifest absent: check B/data/count and B/data/price.
+Public 0.0.5 performs full pre/post database integrity checks; price opening and
+small queries may take tens of seconds, depending on the machine. No GC candidate
+is applied. library(khmd) does not load the complete data into memory.
+
+MEANING AND SCOPE
+Prices: nominal10,000 KRW; per-m2 metric:10,000 KRW/m2 per observation first.
+n_valid is the metric denominator; q25/median/q75 are exact type-7 quartiles,
+returned as character strings to preserve precision. Preserve original strings
+if converting a copy to numeric. Counts preserve occurrences, not unique deals.
+RENT ALL overlaps subtypes. Sparse absence is not zero; no completeness claim.
+Only aggregate panels/quality/provenance are distributed. Raw CSV, parcels,
+PNU/representative-point datasets and individual-observation stores are excluded.
+Raw-row APIs require separately prepared stores. No contract-type filter is
+offered by this public aggregate panel.
+
+VALIDATION AND PUBLICATION
+Dataset v1, published2026-10-30: https://zenodo.org/records/23762471
 Version DOI: https://doi.org/10.5281/zenodo.23762471
-Data version v1 is distinct from R package version 0.0.5.
-Unauthenticated access to GitHub, the record and the resolving DOI was verified
-on 2026-10-30. The published ZIP was downloaded once and matched the local
-release ZIP in byte size and SHA-256; all ZIP member CRC checks passed.
-This candidate uses the unchanged validated 0.0.5, not the NC 0.0.5.9001 branch.
-Package-internal build-time statements are retained byte-for-byte; root documents
-give the current status. No package-internal file was changed or rebuilt.
+Software0.0.5: https://github.com/jedjang1/khmd
+Existing Windows11/R4.5.2 install/check/query success and the48-item consumer
+acceptance are prior records, not repeated here. This new example is smoke-tested
+in a separate fresh R session with verified installation/public data reuse.
+Full user installation/check subprocess trees are outside the single-worker guard.
+Existing tools/quickstart.R remains a separate supervised tool, unchanged.
+The construction candidate's limited synthetic tests are not independent national
+reproduction. 2026 reference parcels do not verify historical positions.
+Seoul PILOT_PARTIAL / Cheongju PARTIAL_MATCH and completeness limitations remain.
 
-THREE SEPARATE COMPONENTS
-code/khmd and code/khmd_0.0.5.tar.gz: unchanged validated R package/source archive.
-data/: sparse count and price panels, aggregate quality tables, required manifests.
-construction/: actual construction-code base v0_1 AND connection overlay v0_2.
-example_data/ and tools/make_demo.py: small fabricated example and regeneration.
-The data/ subtree is NOT in this GitHub checkout; obtain the separate matching
-Zenodo ZIP from https://zenodo.org/records/23762471 and supply it locally.
-Windows ZIP is deliberately excluded from this first public candidate. The verified
-binary remains a local artifact; it was not rebuilt or repackaged for publication.
-Original CSVs, parcel data, PNU/representative-point datasets, individual-observation
-stores and internal diagnostic logs are not included. Synthetic fixtures are not
-source observations and PNU-shaped test strings are not actual cadastral records.
-
-INSTALL THE PACKAGE SEPARATELY FROM DATA
-Use an existing local R4.5.2 user library with DBI, RSQLite>=2.2.17, jsonlite, digest
-and their dependencies. No dependency binaries or installers are bundled. A source
-installation can be run by a user without downloading a package from a repository:
-
-  B <- normalizePath("path/to/public_candidate", winslash="/", mustWork=TRUE)
-  L <- normalizePath("path/to/user-library", winslash="/", mustWork=TRUE)
-  install.packages(file.path(B,"code/khmd_0.0.5.tar.gz"),repos=NULL,type="source",lib=L)
-  .libPaths(c(L,.Library));library(khmd,lib.loc=L)
-  stopifnot(as.character(getNamespaceVersion("khmd"))=="0.0.5")
-
-Source build/install/check previously passed in an ordinary-user Windows session.
-R CMD check options were --no-manual --no-build-vignettes, with 0 ERROR/0 WARNING/
-0 NOTE. This was not CRAN submission checking or testing another OS. Source install
-and the full user check were outside the single-worker construction guard because
-they use child processes. We did not rerun them or claim guard coverage for them.
-The included guarded query/demo tool keeps the existing single-worker child policy;
-it no longer offers the excluded binary-install mode. No guard override is provided.
-
-DATA LOCATION AND REAL QUERIES
-library(khmd) loads code, not the complete data release into memory. Place data/
-beside the other folders in a separate local working copy as below; metadata
-paths inside its manifests are relative. Do not commit data/ into this repository.
-Manifest opening verifies bound data blocks without loading all rows into memory.
-
-  p <- khmd_open_panel(file.path(B,"data/count/release_manifest.json"))
-  khmd_panel_metadata(p)
-  n <- khmd_panel_collect(p,quarter="2025Q1",family="SALE",limit=2)
-  q <- khmd_panel_quality(p,quarter="2025Q1",family="RENT",limit=2)
-  grid <- n$grid_id[1]
-  prices <- khmd_open_price_panel(file.path(B,"data/price/release_manifest.json"))
-  khmd_price_collect(prices,grid_id=grid,quarter="2025Q1",family="SALE",
-      metric=c("sale_amount","sale_amount_m2"),limit=2)
-  khmd_price_collect(prices,quarter="2025Q1",family="RENT",rent_subtype="ALL",
-      metric=c("deposit","monthly_rent"),limit=4)
-  khmd_price_quality(prices,family="RENT",rent_subtype=c("ALL","JEONSE","MONTHLY_RENT","UNKNOWN"))
-  khmd_price_stream(prices,function(x){write.csv(x,"price_chunk.csv",row.names=FALSE);FALSE},
-      quarter="2025Q1",family="RENT",metric="deposit",rent_subtype="JEONSE",chunk_size=7L)
-
-tools/quickstart.R contains the existing full small-query/stream example. The latest
-staging check reused an installed0.0.5 and performed only count/quality/price small
-queries. Earlier stream/install/check success is historical evidence, not a new run.
-Panel/price/quality queries need only this aggregate bundle. khmd_open_release,
-khmd_collect, khmd_stream, khmd_count and raw-field access require a separately
-prepared individual-observation CSV release/store, which is NOT included.
-
-DATA INTERPRETATION
-20,916,100 selected observation occurrences;20,403,079 assigned and513,021 unassigned.
-Count panel:571,310 observed grid-quarter-family groups; quality table:1,920 query-
-region-quarter-family rows; price:2,158,314 metric/level statistical rows.
-n_obs preserves repeated occurrences; it is not a unique transaction ID/count.
-Sparse missing combinations are not automatically zero. Query regions are acquisition
-units, not invariant historical jurisdictions. Quality denominators are source-region
-denominators, not spatial accuracy or grid completeness. No unlocated row is assigned
-to a guessed grid. Nominal10,000KRW units, exact HF7(type7) Q25/median/Q75 and field-
-specific valid N/excluded N apply. SALE price/m2 is computed per observation first.
-RENT ALL overlaps its JEONSE/MONTHLY_RENT/UNKNOWN subtypes: never sum these levels.
-163,177 cancellation-date-displayed SALE observations remain included.458 explicitly
-monthly-rent rows with monthly amount0 remain unreclassified. This is descriptive
-reported-value statistics, not an official transaction total or quality-adjusted index.
-Grid KHMD_UTMK_1KM_V1: EPSG5179, x=easting/y=northing, origin(0,0), floor indices,
-projected1000m squares.2026-09-08 reference parcels do not establish historical
-contract-time location. Seoul PILOT_PARTIAL/Cheongju PARTIAL_MATCH and unproven
-population completeness remain. Small groups are retained; complete anonymization
-or inability to reconstruct values is not asserted.
-
-CONSTRUCTION, INPUTS AND VALIDATION
-construction/README.txt gives actual module order. INPUT_CONTRACTS.txt and the base
-CSV contracts identify separate source CSVs, normalized stores, cadastral/master/
-historical code inputs and pinned stage/runtime records. No real external input set
-was newly bound here and no independent national replay was performed. This does
-not reopen the completed construction tasks. The candidate is not self-contained.
-During earlier publication staging, only relocation-affected existing synthetic
-tests ran, using copied actual modules. They were not rerun for this document sync.
-Loaded-module paths were checked so old experiment code could not supply a PASS.
-Unchanged119537664-byte worker supervision and child policy were used for new tests.
-
-FILE SETS AND PUBLICATION
-GITHUB_FILES.csv is the current inventory of this checkout, excluding itself to
-avoid a circular self-hash. LICENSE_SCOPE.csv is the current file-license map,
-including whether a combined-candidate file belongs here or to the separate ZIP.
-Inherited DISTRIBUTION_FILES.csv, FILE_INVENTORY.json/.sha256 and UPLOAD_LIST.csv
-are preserved HISTORICAL whole-candidate snapshots from the initial preparation;
-they are not current GitHub inventories and do not assert data/ is present here.
-SOURCE_MAP.csv and metadata/* are preserved historical source/validation evidence.
-Their original checks are not new checks of the updated repository documents.
-The root README.md/.txt, LICENSE.txt, DATA_SOURCES.txt, CITATION.txt,
-DATA_AND_CODE_AVAILABILITY.txt and PUBLICATION_STATUS.txt state the current policy
-and status. Package-internal historical documents remain byte-identical to0.0.5.
-
-GitHub supplies public code/docs/synthetic examples; published Zenodo data v1
-supplies the aggregate-data ZIP. See the record and version DOI above. Frozen
-ZIP/package-internal documents retain their preparation-time status; current root
-documents supersede those status statements only. No data/manifest is rewritten.
-This documentation commit does not change GitHub visibility, issue a Release/tag,
-modify Zenodo or resolve the two source-rights interpretations.
+Jinhyeok Jang / jedjang1@gmail.com / aut,cre.
+Own code MIT; author-held aggregate data/independent documents CC BY4.0; upstream
+and third-party conditions separate. See LICENSE.txt, DATA_SOURCES.txt,
+LICENSE_SCOPE.csv, CITATION.txt and DATA_AND_CODE_AVAILABILITY.txt.
+No source-rights interpretation question is resolved by this guide.
+GITHUB_FILES.csv is current; older combined inventories and metadata remain
+historical. Package0.0.5, data, frozen manifests and guard are unchanged.
